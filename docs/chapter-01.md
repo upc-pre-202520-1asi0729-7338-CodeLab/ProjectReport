@@ -152,4 +152,28 @@ Hostel Manager busca ser la plataforma líder en gestión digital para hostales 
 
 **Initial Segment:**  
 El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas turísticas de Perú y Latinoamérica, con recursos económicos limitados, que necesitan una solución de gestión sencilla y flexible mediante una suscripción mensual.
+### 1.2.2.2. Lean UX Problem Assumptions
+
+- Los administradores de hostales necesitan herramientas tecnológicas fáciles de usar y de bajo costo.  
+- Los procesos manuales provocan una pérdida de tiempo, generan errores y generan una baja competitividad en comparación con las grandes cadenas.  
+- Una aplicación accesible que centralice sus operaciones puede resolver estas necesidades.  
+- Los administradores podrán optimizar los ingresos, reducir los errores operativos y mejorar la satisfacción de los huéspedes.  
+- Los usuarios estarán dispuestos a pagar una suscripción mensual si les ayuda a aumentar la eficiencia y la rentabilidad.  
+
+### 1.2.2.3. Lean UX Problem Hypothesis Statements
+
+- Creemos que los administradores optarán por utilizar Hostel Manager para centralizar y gestionar reservas y servicios adicionales, para reducir errores y ahorrar tiempo frente a los procesos manuales. Sabremos que estamos en lo cierto cuando al menos el 70% de los usuarios activos reportan una disminución en errores o duplicación de reservas en el primer trimestre.  
+
+- Creemos que al ofrecer un modelo de suscripción mensual de bajo costo, para pequeños hostales y hoteles sin acceso a soluciones tecnológicas por el alto costo ayudará a la expansión del negocio. Sabremos que estamos en lo cierto cuando al menos el 50% de los hostales prospectos se conviertan en clientes de pago dentro de los 3 primeros meses.  
+
+- Creemos que la simplificación de los procesos de check-in y check-out dará como resultado una reducción de tiempos de espera y errores administrativos, aumentando la productividad. Sabremos que estamos en lo cierto cuando los administradores reporten un ahorro promedio de 20 minutos al huésped.  
+
+- Creemos que la generación automática de reportes financieros y operativos dará como resultado una mejor toma de decisiones sin necesidad de conocimientos avanzados y gestión. Sabremos que estamos en lo cierto cuando al menos 60% de los administradores usan los reportes semanales y manifiestan mejoras en la gestión de su negocio.  
+
+- Creemos que la integración de un módulo de analítica predictiva dará como resultado una mejor planificación de recursos y estrategias de precios dinámicos. Sabremos que estamos en lo cierto cuando los hostales logren al menos un 5% de incremento en su tasa de ocupación en los primeros meses.  
+
+- Creemos que la implementación de un sistema de soporte y asistencia en tiempo real dará como resultado una rápida resolución de incidencias y una mayor confianza en el uso de la aplicación. Sabremos que estamos en lo correcto cuando al menos el 70% de los administradores califiquen positivamente la asistencia recibida y se reduzca en un 30% las quejas relacionadas con el uso de la plataforma.  
+
+- Creemos que la incorporación de pagos digitales (tarjetas, billeteras móviles, transferencia) dará como resultado una mayor comodidad para los huéspedes y un mejor control financiero para los administradores. Sabremos que estamos en lo cierto cuando el 50% de las transacciones se realicen a través de la plataforma en los primeros meses.
+
 
