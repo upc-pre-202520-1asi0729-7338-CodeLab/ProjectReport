@@ -11,7 +11,7 @@ Nuestra visi√≥n es consolidarnos como una empresa referente en el sector tecnol√
 <table style="width: 100%; border-collapse: collapse;">
     <tr>
         <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../images/Jhoan_Darner.jpeg" alt="Jhoan Darner Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="../assets/jhoan.jpg" alt="Jhoan Darner Photo" style="display: block; margin: 50 auto 0 auto;"/>
         </td>
         <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <strong>Janampa Gutierrez Jhoan Darner (U292323319)</strong> - Ingenier√≠a de Software<br><br>
@@ -55,3 +55,4 @@ Nuestra visi√≥n es consolidarnos como una empresa referente en el sector tecnol√
         </td>
     </tr>
 </table>
+
