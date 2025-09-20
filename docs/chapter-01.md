@@ -177,3 +177,5 @@ El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas 
 - Creemos que la incorporación de pagos digitales (tarjetas, billeteras móviles, transferencia) dará como resultado una mayor comodidad para los huéspedes y un mejor control financiero para los administradores. Sabremos que estamos en lo cierto cuando el 50% de las transacciones se realicen a través de la plataforma en los primeros meses.
 
 
+### 1.2.2.4. Lean UX Canva
+![Lean Ux Canva](../assets/LeanUxCanvas.jpg)
