@@ -178,7 +178,7 @@ El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas 
 
 
 ### 1.2.2.4. Lean UX Canva
-![Lean Ux Canva](../assets/LeanUxCanvas.jpg)
+![Lean Ux Canva](../assets/LeanUXCanvas.jpg)
 
 ## 1.3. Segmentos objetivos
 
