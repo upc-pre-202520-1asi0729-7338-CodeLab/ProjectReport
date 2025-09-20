@@ -1,28 +1,57 @@
-# Documento version 1
-# CAPÍTULO 1: INTRODUCCIÓN
+# 1.1 Startup Profile
 
-La introducción desempeña un papel fundamental en la estructuración y comprensión del proyecto, ya que establece el marco conceptual y contextual sobre el cual se desarrollará el trabajo. En esta sección inicial, se presenta una visión general que permite al lector comprender los objetivos principales que se desean alcanzar, así como los antecedentes que han llevado a la formulación del proyecto. También se delimita el alcance del mismo, es decir, hasta dónde se pretende llegar con el desarrollo de la propuesta. Asimismo, la introducción cumple la función de contextualizar la relevancia del proyecto en un entorno específico, destacando las razones que justifican su realización, los desafíos que se pretenden abordar y los beneficios esperados a partir de su implementación. En suma, esta parte inicial no solo informa, sino que también orienta y motiva al lector a profundizar en el contenido que se presentará a lo largo del documento.
+## 1.1.1 Descripción del Startup
+Codelab es una startup orientada al desarrollo de software, cuyo principal objetivo es diseñar soluciones tecnológicas que respondan de manera creativa y eficiente a los retos que enfrentan las empresas en el entorno digital. La iniciativa surge de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), quienes, motivados por su formación académica y su espíritu innovador, buscan aportar valor mediante el uso estratégico de la tecnología.
 
-## 1.1. Startup Profile
+### Misión
+Nuestra misión es desarrollar herramientas digitales innovadoras que permitan a empresas y organizaciones optimizar sus procesos, resolver problemas actuales y potenciar su crecimiento en un entorno cada vez más competitivo.
 
-El perfil de la startup es un elemento fundamental para comprender la identidad y el rumbo estratégico de una empresa emergente. A través de este perfil, se revela su visión de futuro, sus valores esenciales y la propuesta de valor que la diferencia en el mercado competitivo.
-
-En esta sección se describen los aspectos clave que definen a la startup, incluyendo su origen, las motivaciones que impulsaron su creación, el problema específico que busca solucionar y el enfoque innovador que emplea para posicionarse frente a sus competidores.
-
-Asimismo, se analizan los objetivos a mediano y largo plazo, junto con las estrategias diseñadas para su crecimiento y consolidación dentro del sector. Entender estos elementos resulta vital para evaluar el potencial de la startup y el impacto que puede generar en su entorno.
-
-### 1.1.1. Descripción de la Startup
-
-En un mundo donde la tecnología avanza a un ritmo vertiginoso, **Flota365** nace con una visión clara: transformar la forma en que las empresas gestionan sus flotas mediante soluciones tecnológicas inteligentes, escalables y de alta calidad. Nuestra misión es empoderar a empresas de todos los tamaños —desde pequeños emprendimientos hasta grandes corporaciones— con herramientas que optimizan la operación diaria, incrementan la productividad y reducen significativamente la carga operativa.
-
-Nos diferenciamos por ofrecer **sistemas de gestión de flotas dinámicos**, centrados en la experiencia del usuario y diseñados para brindar información precisa a supervisores y tomadores de decisiones. Gracias a nuestro enfoque orientado a la calidad, ayudamos a nuestros clientes a obtener una visión clara y accionable del desempeño de sus conductores y activos, lo que se traduce en mayor control, eficiencia y rentabilidad.
-
-Nuestro compromiso va más allá de desarrollar software: **en Flota365 estamos comprometidos con la innovación constante**. Adoptamos los estándares tecnológicos más avanzados para mantenernos a la vanguardia y anticiparnos a los desafíos del futuro. Creemos firmemente que automatizar procesos que tradicionalmente requerían altos esfuerzos humanos no solo mejora la eficiencia, sino que también libera el potencial creativo y estratégico de las organizaciones.
-
-**Flota365 no es solo una herramienta de gestión de flotas. Es una plataforma de transformación digital** diseñada para acompañar a las empresas en su evolución tecnológica, posicionándolas un paso adelante frente a la competencia.
-
-**Misión**  
-Desarrollar soluciones tecnológicas de alta calidad para la gestión de flotas...
-
-**Visión**  
-Ser la empresa líder en soluciones inteligentes para la gestión de flotas...
+### Visión
+Nuestra visión es consolidarnos como una empresa referente en el sector tecnológico, contribuyendo al progreso digital y convirtiéndonos en socios estratégicos de organizaciones que buscan generar impacto sostenible en la sociedad.
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Jhoan_Darner.jpeg" alt="Jhoan Darner Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Janampa Gutierrez Jhoan Darner (U292323319)</strong> - Ingeniería de Software<br><br>
+            Actualmente estoy cursando el 5to ciclo de Ingeniería de Software, con 19 años. Me gusta jugar videojuegos, ir al gimnasio, entrenar básquet y practicar programación. Deseo en un futuro desempeñarme en desarrollo web y ciberseguridad. Mis habilidades incluyen perseverancia, escucha activa, trabajo en equipo y motivación. Me comprometo a acabar eficazmente los entregables que me asignen y apoyar en todo lo que haga falta en el proyecto.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Jose_Diego.jpeg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Bautista Rivera José Diego (U202310949)</strong> - Ingeniería de Software<br><br>
+            Descripción pendiente. Habilidades: Pendientes. Compromiso: Pendiente.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Jhordi_Luis.jpeg" alt="Jhordi Luis Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Jhordi Luis Carranza Pérez (U20191E835)</strong> - Ingeniería de Software<br><br>
+            Tengo 23 años y actualmente curso el sexto ciclo de Ingeniería de Software. Tengo experiencia en desarrollo web, especialmente en frontend. Además, soy músico trompetista y practico deportes de resistencia y al aire libre. Me quiero enfocar más adelante en Telecomunicaciones o Neurociencia computacional. Mis habilidades incluyen empatía, compromiso y colaboración. Me comprometo a desarrollar un proyecto con buena salida en el mundo y que ayude a muchas personas.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Integrante4.jpeg" alt="Integrante 4 Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Integrante 4</strong> - Ingeniería de Software<br><br>
+            Información pendiente.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Integrante5.jpeg" alt="Integrante 5 Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Integrante 5</strong> - Ingeniería de Software<br><br>
+            Información pendiente.
+        </td>
+    </tr>
+</table>
