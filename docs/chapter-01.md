@@ -179,3 +179,32 @@ El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas 
 
 ### 1.2.2.4. Lean UX Canva
 ![Lean Ux Canva](../assets/LeanUxCanvas.jpg)
+
+## 1.3. Segmentos objetivos
+
+El segmento objetivo en el que la aplicación se va a enfocar son administradores de hoteles independientes o medianos que desean digitalizar la gestión operativa de sus establecimientos.
+
+Según estudios recientes en Perú, por ejemplo, en el análisis *“La transformación digital en el sector hotelero peruano”* (ESAN, 2022), se señala que los principales actores hoteleros perciben que las herramientas digitales no solo mejoran la experiencia de compra del huésped, sino que también hacen que el negocio sea más rentable. Además, los establecimientos hoteleros categorizados de Lima están adoptando progresivamente tecnologías para optimizar los procesos, gestionar las reservas, mejorar el servicio al cliente y operar de manera más eficiente ante retos como la pandemia.
+
+### Administradores de hoteles y hostales
+
+**Dominio del problema:**  
+Los administradores de hoteles y hostales enfrentan múltiples dificultades en la gestión diaria de sus negocios debido al uso de métodos manuales y poco eficientes, como cuadernos, hojas de Excel o mensajes de WhatsApp.
+
+**Aspectos geográficos:**  
+- Principalmente en zonas urbanas y turísticas (costa, sierra y selva con alta afluencia)  
+- Presencia en ciudades con crecimientos turísticos como Cusco, Arequipa, Lima, Ayacucho, etc.  
+
+**Aspectos demográficos:**  
+- Edad promedio: 30 - 55 años  
+- Propietarios o encargados de hoteles con 5 a 30 habitaciones  
+- Ingresos variables, dependen de la ocupación y temporada turística  
+
+**Aspectos psicográficos:**  
+- Buscar optimizar la gestión de reservas y pagos  
+- Valoran la practicidad y el control del negocio en tiempo real  
+- Están interesados en mejorar la experiencia del cliente y reducir errores  
+
+**Información estadística:**  
+- En Perú, más del 70% de los hospedajes pequeños y medianos aún manejan reservas manualmente o con herramientas básicas  
+- Solo alrededor del 25% de hoteles/hostales pequeños usan un software de gestión hotelera
