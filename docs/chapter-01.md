@@ -129,4 +129,27 @@ Mediante estrategias de marketing digital, especialmente mediante campañas en r
 
 #### 2. How much (Cuánto)
 La plataforma funcionará bajo un modelo de suscripción mensual accesible para hostales y hoteles, con planes escalables según el número de habitaciones o usuarios administradores registrados. Este esquema permite a los negocios pagar únicamente por lo que utilizan, manteniendo los costos bajo control.
+## 1.2.2. Lean UX Process
+
+### 1.2.2.1. Lean UX Problem Statements
+
+**Domain:**  
+Los administradores de hostales y de hoteles independientes carecen de un sistema centralizado y de fácil acceso para gestionar las reservaciones, los huéspedes y los servicios adicionales. Como resultado, recurren a procesos manuales, lo que conduce a que la información se duplique, se cometan errores y se pierdan oportunidades de ingresos.
+
+**Customer Segments:**  
+- Administradores y propietarios de hostales y de pequeños hoteles.  
+- Empresas familiares que actualmente gestionan las reservas de forma manual.
+
+**Pain Points:**  
+- Los procesos manuales para las reservas, check-in/check-out y servicios adicionales pueden generar errores y pérdida de ingresos.  
+- La falta de un sistema integrado y accesible para que las operaciones estén bien centralizadas.
+
+**Gap:**  
+Existen sistemas de gestión de hoteles en el mercado, pero la mayoría son costosos, complejos o están pensados para las grandes cadenas. Esto deja a los pequeños hostales y hoteles en una desventaja tecnológica y operacional.
+
+**Vision/Strategy:**  
+Hostel Manager busca ser la plataforma líder en gestión digital para hostales y hoteles en Latinoamérica, reconocida por la innovación tecnológica, la integración con dispositivos inteligentes y el modelo de suscripción flexible. Aspirando a construir un ecosistema turístico más competitivo, eficiente y sostenible, donde la tecnología impulse el crecimiento de los negocios.
+
+**Initial Segment:**  
+El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas turísticas de Perú y Latinoamérica, con recursos económicos limitados, que necesitan una solución de gestión sencilla y flexible mediante una suscripción mensual.
 
