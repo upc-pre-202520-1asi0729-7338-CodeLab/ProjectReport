@@ -150,6 +150,96 @@ La plataforma está desarrollada con tecnologías web modernas, garantizando una
 Con Hostel Manager, aspiramos a transformar la gestión hotelera independiente en América Latina, permitiendo que los administradores dediquen más tiempo a ofrecer experiencias memorables, mientras nuestra plataforma se encarga de la eficiencia operativa y el control inteligente del negocio.
 
 ### 1.2.1. Antecedentes y problemática
+
+En el sector turístico, hostales y hoteles enfrentan limitaciones tecnológicas significativas. muchos aún gestionan sus reservas, huéspedes y servicios adicionales de manera manual o con herramientas poco integradas, lo que genera errores, duplicidad de información y una pérdida constante de oportunidades de ingreso. Estudios recientes señalan que la transformación digital en la hospitalidad aumenta la eficiencia operativa y puede reducir los tiempos de check-in/check-out hasta en un 30%, además de mejorar la precisión en procesos críticos (ResearchGate, 2024).
+
+Al mismo tiempo, los huéspedes actuales esperan experiencias digitales rápidas y personalizadas, como check-in móvil, pagos en línea y la posibilidad de solicitar servicios desde su propio dispositivos, lo cual ya se ha convertido en un estándar de la industria (Linkedin, 2024). Sin embargo, la adopción de estas tecnologías por parte de hoteles sigue siendo limitada debido a costos altos y a la falta de capacidades internas para implementarlas.
+
+En este contexto, Hostel Manager surge para cerrar esa brecha: ofrece una solución integral, accesibilidad y escalable que digitaliza la gestión hotelera y mejora la eficiencia operativa.
+
+The 5 “W's
+
+1. What (Qué):
+
+¿Cual es el problema?
+
+En el sector turístico, los hostales y hoteles enfrentan problemas al gestionar reservas, huéspedes y servicios adicionales, la mayoría utiliza procesos manuales o herramientas poco integradas, lo que genera errores, pérdida de ingreso y una experiencia deficiente para los huéspedes. Además, los viajeros esperan soluciones digitales como reservas en línea, pagos seguros y solicitudes rápidas de servicio, lo cual muchas veces no está disponible en este segmento.
+
+¿Cuál es la relación con la persona en cuestión?
+
+Administrador: utiliza la plataforma para gestionar precios, disponibilidad, clientes y reportes.
+
+2. When (Cuándo):
+
+¿Cuándo sucede el problema?
+
+La problemática ocurre en los procesos diarios de gestión hotelera: cuando se realizan reservas, check-ins, cancelaciones o solicitudes de room service. En esos momentos la falta de un sistema centralizado provoca retrasos y errores.
+
+¿Cuándo utiliza el cliente el producto?
+
+Los administradores lo utilizan todo el tiempo: en la operación diaria, generación de reportes y gestión de negocio.
+
+3. Where (dónde):
+
+¿Dónde está el cliente cuando usa el producto?
+
+El administrador lo usa en el hostal/hotel o de manera remota gracias a la plataforma web.
+
+¿A dónde se dirige?
+
+El administrador busca disfrutar de una experiencia ágil y personalizada.
+
+¿Dónde surge el problema?
+
+En la falta de digitalización de hoteles, que genera ineficiencia y desventaja frente a grandes cadenas que ya poseen sistemas integrados de gestión.
+
+4. Who (quién):
+
+¿Quiénes están involucrados?
+
+- Administradores/propietarios: gestionan operaciones, precios, reportes y personal.
+
+- Huéspedes: reservan habitaciones y solicitan servicios.
+
+- Desarrolladores: crean y mantienen la plataforma.
+
+¿A quiénes le sucede el problema?
+
+A los administradores, que pierden tiempo e ingresos por falta de herramientas modernas.
+
+¿Quién lo utilizará?
+Administradores (panel de gestion).
+
+5. Why (por qué):
+
+Hostel Manager busca digitalizar y profesionalizar la gestión de hostales y hoteles, ofreciendo una herramienta escalable y accesible que permita competir con grandes cadenas.
+
+¿Cuál es la causa del problema?
+
+La raíz está en la falta de plataformas centralizadas, accesibles y adaptadas a este tipo de negocios. Los sistemas existentes son costosos o demasiado complejos, lo que obliga a los hostales y hoteles a depender de procesos manuales que afectan su productividad y satisfacción del cliente.
+
+The 2 “H”s
+
+1. How(cómo):
+
+¿En qué condiciones los clientes usan nuestro producto?
+
+Los administradores lo usan en tiempo real como herramienta centralizada para controlar reservas, coordinar servicios adicionales y generar reportes de gestión.
+
+¿Cómo nos conocieron los compradores?
+
+Mediante estrategias de marketing digital, especialmente mediante campañas en redes sociales y anuncios en buscadores como Google Ads.
+
+¿Qué llevó a la persona a llegar a esta situación?
+
+- Frustración con métodos manuales.
+- Necesidad de optimizar ingresos y procesos.
+- Expectativas creciente de los huéspedes respecto a servicios digitales.
+
+2. How much(cuánto): 
+
+La plataforma funcionará bajo un modelo de suscripción mensual accesible para hostales y hoteles, con planes escalables según el número de habitaciones o usuarios administradores registrados. Este esquema permite a los negocios pagar únicamente por lo que utilizan, manteniendo los costos bajo control.
+
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 #### 1.2.2.2. Lean UX Assumptions
