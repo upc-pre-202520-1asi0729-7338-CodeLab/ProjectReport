@@ -132,7 +132,7 @@ Codelab es una startup orientada al desarrollo de software, cuyo principal objet
 <table style="width: 100%; border-collapse: collapse;">
     <tr>
         <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="../assets/jhoan.jpg" alt="Jhoan Darner Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="../images/jhoan.jpg" alt="Jhoan Darner Photo" style="display: block; margin: 50 auto 0 auto;"/>
         </td>
         <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <strong>Janampa Gutierrez Jhoan Darner (U292323319)</strong> - Ingeniería de Software<br><br>
@@ -348,7 +348,7 @@ Initial Segment:
 
 #### 1.2.2.4. Lean UX Canvas
 
-![Lean Ux Canva](../images/LeanUXCanvas.png)
+![Lean Ux Canva](../images/LeanUXCanvas.jpg)
 
 ## 1.3. Segmentos objetivo
 
