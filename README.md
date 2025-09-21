@@ -2133,7 +2133,7 @@ La estrategia de despliegue se realizará considerando cada componente del siste
   2. GitHub Actions ejecuta build automático.
   3. Publicación automática en URL de producción.
 
-#### Frontend Web Application (Vue)
+#### Frontend Web Application (Angular)
 - **Hospedaje:** Vercel o Netlify.  
 - **Proceso:**
   1. Merge a `main` desde `develop`.
