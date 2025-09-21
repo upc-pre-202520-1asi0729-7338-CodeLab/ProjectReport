@@ -129,6 +129,54 @@ Codelab es una startup orientada al desarrollo de software, cuyo principal objet
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+<table style="width: 100%; border-collapse: collapse;">
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../assets/jhoan.jpg" alt="Jhoan Darner Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Janampa Gutierrez Jhoan Darner (U292323319)</strong> - Ingeniería de Software<br><br>
+            Actualmente estoy cursando el 5to ciclo de Ingeniería de Software, con 19 años. Me gusta jugar videojuegos, ir al gimnasio, entrenar básquet y practicar programación. Deseo en un futuro desempeñarme en desarrollo web y ciberseguridad. Mis habilidades incluyen perseverancia, escucha activa, trabajo en equipo y motivación. Me comprometo a acabar eficazmente los entregables que me asignen y apoyar en todo lo que haga falta en el proyecto.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Jose_Diego.jpeg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Bautista Rivera José Diego (U202310949)</strong> - Ingeniería de Software<br><br>
+            Descripción pendiente. Habilidades: Pendientes. Compromiso: Pendiente.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Jhordi_Luis.jpeg" alt="Jhordi Luis Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Jhordi Luis Carranza Pérez (U20191E835)</strong> - Ingeniería de Software<br><br>
+            Tengo 23 años y actualmente curso el sexto ciclo de Ingeniería de Software. Tengo experiencia en desarrollo web, especialmente en frontend. Además, soy músico trompetista y practico deportes de resistencia y al aire libre. Me quiero enfocar más adelante en Telecomunicaciones o Neurociencia computacional. Mis habilidades incluyen empatía, compromiso y colaboración. Me comprometo a desarrollar un proyecto con buena salida en el mundo y que ayude a muchas personas.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Integrante4.jpeg" alt="Integrante 4 Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Integrante 4</strong> - Ingeniería de Software<br><br>
+            Información pendiente.
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <img src="../images/Integrante5.jpeg" alt="Integrante 5 Photo" style="display: block; margin: 50 auto 0 auto;"/>
+        </td>
+        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
+            <strong>Integrante 5</strong> - Ingeniería de Software<br><br>
+            Información pendiente.
+        </td>
+    </tr>
+</table>
+
 ## 1.2. Solution Profile
 
 En Hostel Manager nos dedicamos a diseñar soluciones tecnológicas modernas y accesibles que simplifican y optimizan la gestión hotelera en hostales y pequeños hoteles. Entendemos los desafíos que enfrentan los administradores independientes: la complejidad operativa, la dispersión de herramientas digitales y la dificultad para ofrecer un servicio ágil y personalizado. Por ello, desarrollamos una plataforma web integral que centraliza la administración de reservas, huéspedes y servicios complementarios, facilitando tanto el control diario como la toma de decisiones estratégicas.
