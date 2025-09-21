@@ -219,6 +219,30 @@ Asegurando la homogeneidad entre los integrantes del equipo, se establecen las s
 
 ### 5.1.2. Source Code Management
 
+Para llevar una correcta administración del código fuente se utilizará “GitHub” como plataforma central de control de versiones. Cada módulo del proyecto tendrá su propio repositorio:
+ 
+ - Landing Page: https://github.com/upc-pre-202520-1asi0729-7338-CodeLab/LandingPage.git
+ - Frontend WebApp: Por definir.
+ - Web Service (API): Por definir.
+
+GitFlow Workflow:
+
+Se adoptará el modelo de branching “GitFlow” (Vincent Driessen) con las siguientes ramas principales:
+
+ - main: versión completa en producción.
+ - develop: integración de nuevas funcionalidades antes del release.
+ - feat/nombre: ramas para nuevas características, en nuestro caso dividida en capítulos. Ejemplo: feat/chapter-1
+
+Conventional Commits:
+
+Se usará el estándar de Conventional Commits para mensajes de los commits:
+ - feat: nueva funcionalidad en código.
+ - fix: correción de bug.
+ - docs: cambios en documentación.
+ - style: formato y estilo (sin cambios funcionales).
+ - refactor: cambios internos en el código.
+ - test: pruebas añadidas o modificadas.
+Ejemplo: git commit -m “feat: add room service request module”
 
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
