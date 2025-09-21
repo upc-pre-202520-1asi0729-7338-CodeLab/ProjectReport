@@ -156,6 +156,349 @@
 # Capítulo III: Requirements Specification
 
 ## 3.1. User Stories
+
+### Epics
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic ID</th>
+      <th>Título</th>
+      <th>Descripción (Como / Quiero / Para que)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>EP01</td><td>Gestión de Reservas</td><td>Como administrador de un hostal quiero gestionar todo el ciclo de reservas (búsqueda, creación, cambios y cancelaciones) para reducir errores y optimizar la ocupación.</td></tr>
+    <tr><td>EP02</td><td>Operación de Huéspedes</td><td>Como administrador quiero controlar check-in, check-out y el historial de cada huésped para ofrecer un servicio rápido y personalizado.</td></tr>
+    <tr><td>EP03</td><td>Servicios y Experiencia</td><td>Como huésped quiero solicitar y pagar servicios adicionales en tiempo real para que mi estadía sea más cómoda y completa.</td></tr>
+    <tr><td>EP04</td><td>Administración Financiera</td><td>Como administrador quiero registrar pagos, generar facturas y obtener reportes para mantener un control financiero confiable.</td></tr>
+    <tr><td>EP05</td><td>Plataforma y Acceso Seguro</td><td>Como usuario quiero autenticarme y acceder desde cualquier dispositivo para que mis datos estén protegidos y pueda operar en todo momento.</td></tr>
+    <tr><td>EP06</td><td>Marketing y Captación</td><td>Como visitante o potencial cliente quiero conocer la propuesta de valor, planes y testimonios en una landing page para decidir registrarme o solicitar más información.</td></tr>
+    <tr><td>EP07</td><td>API Pública e Integraciones</td><td>Como desarrollador externo quiero consumir una API RESTful de reservas, pagos y usuarios para integrar Hostel Manager con otros sistemas o aplicaciones.</td></tr>
+  </tbody>
+</table>
+
+
+### User Stories
+
+> Cada historia incluye dos escenarios de aceptación en formato **Given–When–Then**.
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación (2 escenarios)</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US01</td>
+      <td>Buscar disponibilidad</td>
+      <td>Como huésped quiero consultar habitaciones libres por fecha para planificar mi viaje.</td>
+      <td>
+        Escenario 1: Dado fechas válidas, cuando solicita disponibilidad, entonces el sistema muestra habitaciones.<br/>
+        Escenario 2: Dado rango invertido, cuando solicita disponibilidad, entonces el sistema informa “Fechas no válidas”.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US02</td>
+      <td>Crear reserva</td>
+      <td>Como administrador quiero registrar una reserva con datos de huésped y habitación para asegurar la disponibilidad.</td>
+      <td>
+        Escenario 1: Dado que ingresa datos válidos, cuando confirma, entonces el sistema guarda la reserva y confirma.<br/>
+        Escenario 2: Dado que la habitación está ocupada, cuando intenta reservar, entonces el sistema muestra “No disponible”.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US03</td>
+      <td>Modificar reserva</td>
+      <td>Como administrador quiero actualizar las fechas o datos de una reserva para mantener la información correcta.</td>
+      <td>
+        Escenario 1: Dado que la reserva está activa, cuando modifica fechas, entonces el sistema valida y guarda cambios.<br/>
+        Escenario 2: Dado que las nuevas fechas se superponen, cuando guarda, entonces el sistema muestra “Conflicto de fechas”.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US04</td>
+      <td>Cancelar reserva</td>
+      <td>Como administrador quiero cancelar reservas confirmadas para liberar la habitación.</td>
+      <td>
+        Escenario 1: Dado que selecciona una reserva activa, cuando confirma, entonces el sistema marca la reserva como cancelada <br/>
+        Escenario 2: Dado que la reserva ya está cancelada, cuando intenta cancelarla, entonces el sistema indica “Reserva ya cancelada”.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US05</td>
+      <td>Reserva en línea</td>
+      <td>Como huésped quiero crear y pagar una reserva desde mi dispositivo para obtener confirmación inmediata.</td>
+      <td>
+        Escenario 1: Dado que ingresa datos válidos y método de pago, cuando confirma, entonces el sistema registra la reserva y envía confirmación. <br/>
+        Escenario 2: Dado que el pago falla, cuando intenta reservar, entonces el sistema notifica “Transacción no completada”.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US06</td>
+      <td>Confirmación por correo</td>
+      <td>Como huésped quiero recibir un email con los detalles de la reserva para comprobarla en cualquier momento.</td>
+      <td>
+        Escenario 1: Dado que la reserva es creada, cuando el sistema procesa, entonces envía correo de confirmación. <br/>
+        Escenario 2: Dado que el correo del huésped es incorrecto, cuando se intenta enviar, entonces el sistema registra el error y alerta al administrador.
+      </td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td>US07</td>
+      <td>Registrar huésped</td>
+      <td>Como administrador quiero registrar la información de un nuevo huésped para mantener un historial de clientes.</td>
+      <td>
+        Escenario 1: Dado que ingresa todos los datos requeridos, cuando guarda, entonces el sistema confirma “Huésped registrado”. <br/>
+        Escenario 2: Dado que falta información obligatoria, cuando se guarda, entonces el sistema muestra “Datos incompletos”.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US08</td>
+      <td>Actualizar datos de huésped</td>
+      <td>Como administrador quiero editar información personal de un huésped para mantener registros actualizados.</td>
+      <td>
+        Escenario 1: Dado que el huésped existe, cuando modifica datos, entonces el sistema guarda los cambios. <br/>
+        Escenario 2: Dado que el ID no existe, cuando intenta modificar, entonces el sistema muestra “Huésped no encontrado”.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US09</td>
+      <td>Check-in digital</td>
+      <td>Como administrador quiero registrar el check-in de un huésped para actualizar el estado de la habitación en tiempo real.</td>
+      <td>
+        Escenario 1: Dado que hay reserva confirmada, cuando registra check-in, entonces el sistema cambia estado a “Ocupado”. <br/>
+        Escenario 2: Dado que no hay reserva, cuando intenta check-in, entonces el sistema muestra “Reserva no encontrada”.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US10</td>
+      <td>Check-out digital</td>
+      <td>Como administrador quiero registrar la salida de un huésped para que la habitación quede disponible.</td>
+      <td>
+        Escenario 1: Dado que la habitación está ocupada, cuando confirma check-out, entonces el sistema libera la habitación. <br/>
+        Escenario 2: Dado que no se ha hecho check-in, cuando intenta check-out, entonces el sistema muestra “Check-in no registrado”.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US11</td>
+      <td>Consultar historial de huésped</td>
+      <td>Como administrador quiero revisar el historial de visitas de cada huésped para ofrecer un servicio personalizado.</td>
+      <td>
+        Escenario 1: Dado que selecciona un huésped válido, cuando solicita historial, entonces el sistema muestra reservas previas. <br/>
+        Escenario 2: Dado que el huésped no tiene historial, cuando solicita, entonces el sistema muestra “Sin registros disponibles”.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US12</td>
+      <td>Registrar preferencias</td>
+      <td>Como administrador quiero guardar preferencias especiales de cada huésped para personalizar futuras estadías.</td>
+      <td>
+        Escenario 1: Dado que ingresa preferencias, cuando guarda, entonces el sistema las asocia al perfil <br/>
+        Escenario 2: Dado que el ID no existe, cuando guarda, entonces el sistema indica “Huésped no encontrado”.
+      </td>
+      <td>EP02</td>
+    </tr>
+    <tr>
+      <td>US13</td>
+      <td>Crear servicio adicional</td>
+      <td>Como administrador quiero definir servicios extras con precios para ofrecer más opciones de venta.</td>
+      <td>
+        Escenario 1: Dado que ingresa nombre y precio, cuando confirma, entonces el sistema lo registra. <br/>
+        Escenario 2: Dado que falta el precio, cuando se guarda, entonces el sistema muestra “Información incompleta”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US14</td>
+      <td>Editar servicio adicional</td>
+      <td>Como administrador quiero modificar o eliminar un servicio extra para mantener la oferta actualizada.</td>
+      <td>
+        Escenario 1: Dado que el servicio existe, cuando se actualiza o elimina, entonces el sistema guarda cambios. <br/>
+        Escenario 2: Dado que el ID no existe, cuando intenta modificar, entonces el sistema muestra “Servicio no encontrado”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US15</td>
+      <td>Solicitar servicio en estadía</td>
+      <td>Como huésped quiero pedir un servicio extra en tiempo real para que mi experiencia sea más cómoda.</td>
+      <td>
+        Escenario 1: Dado que hay servicios activos, cuando selecciona uno, entonces el sistema registra la solicitud y notifica. <br/>
+        Escenario 2: Dado que el servicio está deshabilitado, cuando intenta solicitar, entonces el sistema muestra “Servicio no disponible”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US16</td>
+      <td>Pagar servicio adicional</td>
+      <td>Como huésped quiero pagar los servicios consumidos para cerrar mi cuenta de manera rápida y segura.</td>
+      <td>
+        Escenario 1: Dado que selecciona método de pago válido, cuando confirma, entonces el sistema procesa pago y emite comprobante. <br/>
+        Escenario 2: Dado que el método es inválido, cuando confirma, entonces el sistema informa “Pago rechazado”.
+      </td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td>US17</td>
+      <td>Registrar pago de reserva</td>
+      <td>Como administrador quiero validar y registrar pagos recibidos para que el control financiero sea exacto.</td>
+      <td>
+        Escenario 1: Dado que ingresa datos correctos, cuando confirma, entonces el sistema registra el pago. <br/>
+        Escenario 2: Dado que falta monto, cuando confirma, entonces el sistema muestra “Información insuficiente”.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US18</td>
+      <td>Emisión de factura electrónica</td>
+      <td>Como administrador quiero generar comprobantes automáticos de pago para cumplir requisitos legales.</td>
+      <td>
+        Escenario 1: Dado que se registra un pago, cuando se procesa, entonces el sistema envía factura al correo. <br/>
+        Escenario 2: Dado que el correo es incorrecto, cuando intenta enviar, entonces el sistema registra error y alerta al administrador.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US19</td>
+      <td>Reporte financiero por fechas</td>
+      <td>Como administrador quiero obtener reportes de ingresos y ocupación para analizar el desempeño del negocio.</td>
+      <td>
+        Escenario 1: Dado que selecciona rango válido, cuando solicita, entonces el sistema genera reporte con totales <br/>
+        Escenario 2: Dado que la fecha inicial es mayor a la final, cuando solicita, entonces el sistema muestra “Rango de fechas inválido”.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US20</td>
+      <td>Conciliación de pagos</td>
+      <td>Como administrador quiero conciliar pagos con reservas para detectar discrepancias.</td>
+      <td>
+        Escenario 1: Dado que existen transacciones, cuando solicita conciliación, entonces el sistema identifica coincidencias. <br/>
+        Escenario 2: Dado que no hay pagos, cuando solicita, entonces el sistema muestra “No hay datos para conciliar”.
+      </td>
+      <td>EP04</td>
+    </tr>
+    <tr>
+      <td>US21</td>
+      <td>Autenticación segura</td>
+      <td>Como usuario quiero iniciar sesión con credenciales protegidas para que mis datos permanezcan seguros.</td>
+      <td>
+        Escenario 1: Dado que las credenciales son válidas, cuando se envían, entonces el sistema concede acceso. <br/>
+        Escenario 2: Dado que la contraseña es incorrecta, cuando se envían, entonces el sistema responde “Usuario o contraseña incorrectos”.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US22</td>
+      <td>Recuperar contraseña</td>
+      <td>Como usuario quiero restablecer mi contraseña olvidada para volver a acceder.</td>
+      <td>
+        Escenario 1: Dado que ingresa correo registrado, cuando solicita recuperación, entonces el sistema envía enlace temporal. <br/>
+        Escenario 2: Dado que el correo no existe, cuando solicita, entonces el sistema muestra “Correo no encontrado”.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US23</td>
+      <td>Gestión de roles</td>
+      <td>Como administrador quiero asignar roles con distintos permisos para que cada usuario tenga el acceso adecuado.</td>
+      <td>
+        Escenario 1: Dado que selecciona un usuario y rol, cuando guarda, entonces el sistema aplica permisos. <br/>
+        Escenario 2: Dado que el rol no existe, cuando intenta asignarlo, entonces el sistema muestra “Rol no válido”.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US24</td>
+      <td>Acceso multicanal</td>
+      <td>Como usuario quiero acceder desde web o móvil para tener flexibilidad de uso.</td>
+      <td>
+        Escenario 1: Dado que posee credenciales válidas, cuando inicia sesión desde cualquier dispositivo, entonces el sistema ofrece las mismas funciones. <br/>
+        Escenario 2: Dado que el navegador no es compatible, cuando inicia sesión, entonces el sistema muestra “Dispositivo no soportado”.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
+      <td>US25</td>
+      <td>Información en landing page</td>
+      <td>Como visitante quiero ver la propuesta de valor y testimonios para decidir si registrarme.</td>
+      <td>
+        Escenario 1: Dado que accede a la landing, cuando la página carga, entonces se muestran secciones informativas. <br/>
+        Escenario 2: Dado que el servidor está inactivo, cuando intenta acceder, entonces el sistema muestra un mensaje de mantenimiento.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US26</td>
+      <td>Registro rápido desde landing</td>
+      <td>Como administrador interesado quiero crear una cuenta desde la landing para empezar a usar la plataforma de inmediato.</td>
+      <td>
+        Escenario 1: Dado que ingresa datos válidos, cuando envía el formulario, entonces el sistema crea la cuenta y envía confirmación. <br/>
+        Escenario 2: Dado que el correo no es válido, cuando se envía, entonces el sistema muestra “Formato de correo inválido”.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US27</td>
+      <td>Formulario de contacto</td>
+      <td>Como visitante quiero enviar una consulta o solicitud de demostración para que el equipo comercial me responda.</td>
+      <td>
+        Escenario 1: Dado que completa nombre, correo y mensaje, cuando envía, entonces el sistema confirma el envío y notifica al equipo. <br/>
+        Escenario 2: Dado que falta un campo obligatorio, cuando envía, entonces el sistema muestra “Complete todos los campos”.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US28</td>
+      <td>Visualizar planes y precios</td>
+      <td>Como visitante quiero revisar planes de suscripción y costos para elegir el más adecuado.</td>
+      <td>
+        Escenario 1: Dado que accede a la sección de precios, cuando carga, entonces el sistema muestra planes actualizados. <br/>
+        Escenario 2: Dado que ocurre fallo de datos, cuando carga, entonces el sistema muestra “Información no disponible temporalmente”.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td>US29</td>
+      <td>Endpoint de reservas</td>
+      <td>Como desarrollador externo quiero crear reservas mediante un endpoint RESTful para integrar mi aplicación con el sistema.</td>
+      <td>
+        Escenario 1:  Dado que el request contiene datos correctos, cuando se envía, entonces el sistema responde 201 con JSON de la reserva. <br/>
+        Escenario 2: Dado que falta un campo obligatorio, cuando se envía, entonces el sistema responde 400 con mensaje de error.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td>US30</td>
+      <td>Endpoint de pagos</td>
+      <td>Como desarrollador externo quiero registrar pagos mediante un endpoint RESTful para sincronizar mis sistemas de cobro.</td>
+      <td>
+        Escenario 1:  Dado que el request es válido, cuando se procesa, entonces el sistema responde 201 con confirmación de pago. <br/>
+        Escenario 2: Dado que la pasarela rechaza el pago, cuando se procesa, entonces el sistema responde 402 con mensaje de rechazo.
+      </td>
+      <td>EP07</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 
