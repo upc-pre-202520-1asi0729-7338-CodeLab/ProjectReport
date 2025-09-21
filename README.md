@@ -503,7 +503,7 @@ El sprint planning es una reunión en la metodología ágil donde el equipo plan
 		</tr>
         <tr>
 			<td colspan="1"> Attendees (to planning meeting)</td>
-            <td colspan="1">Bautista Rivera, Jose Diego // Carranza Perez, Jhordi Luis //  Janampa Gutierrez, Jhoan Darner // Quiroz Caceres, Adrian Alonso  </td>
+            <td colspan="1">Bautista Rivera, Jose Diego // Carranza Perez, Jhordi Luis //  Janampa Gutierrez, Jhoan Darner // Quiroz Caceres, Adrian Alonso // Pillaca Velasquez, Andre </td>
 		</tr>
          <tr>
 			<td colspan="1">Sprint 1 – 1 Review Summary </td>
@@ -532,6 +532,16 @@ El sprint planning es una reunión en la metodología ágil donde el equipo plan
 </table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
+La tabla Aspect Leaders and Collaborators es una herramienta de gestión esencial que proporciona una visión clara y concisa de las responsabilidades individuales dentro del equipo en relación con los diversos aspectos del Sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Landing Page (L/C) | Front-End Prototype (L/C) | Documentation (L/C) |
+|---|---|---|---|---|
+| Bautista Rivera, Jose Diego | Gogotes17 | C | L |  L |
+| Carranza Perez, Jhordi Luis | CarPer2002 | C | C |  C |
+| Janampa Gutierrez, Jhoan Darner | orraiAKBDFSK | L | C |  C |
+| Quiroz Caceres, Adrian Alonso | Aqc1019 | L | C | C  |
+| Pillaca Velasquez, Andre | Andreeeee1234 | C | C | C  |
+
 #### 5.2.1.3. Sprint Backlog 1
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
