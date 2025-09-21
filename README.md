@@ -25,8 +25,13 @@
 | Versión | Fecha      | Autor | Descripción de modificación|
 |---------|------------|-------|----------------------------|
 | V0.1    | 01/09/2025 | Todos | Creación del repositorio   |
+| V1.0    | 21/09/2025 | Todos | Finalización de los capitulos I,II,III,IV y V|
 
 # Project Report Collaboration Insights
+
+**TB1:** 
+
+<img src="images/Insig.png">
 
 # Contenido
 - [**Capítulo I: Introducción**](#capítulo-i-introducción)
