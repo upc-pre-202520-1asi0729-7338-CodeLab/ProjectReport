@@ -114,8 +114,9 @@
 
 | Criterio específico                                                    | Acciones realizadas | Conclusiones |
 |------------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   |                     |              |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. |                     |              |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **Jhordi Carranza:**<br>Realicé entrevistas a ambos segmentos de usuarios (huéspedes y administradores) para levantar requerimientos.<br>Presenté y expliqué el Capítulo V ante el equipo, especialmente en temas de configuración del entorno, control de versiones y despliegue.<br>Exposé los diseños en Figma de la web app, explicando el flujo de navegación y la justificación de decisiones de diseño. | Se demostró capacidad para **explicar de manera clara y adaptada a cada audiencia** (usuarios no técnicos en entrevistas y equipo técnico en revisiones internas), logrando validar requerimientos y obtener retroalimentación útil para el proyecto. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | Jhordi Carranza<br>Redacté el Capítulo V: *Product Implementation, Validation & Deployment*, estructurado en secciones técnicas (gestión del código, guías de estilo, evidencia de despliegue, colaboración en sprints).<br>Elaboré la documentación de servicios y evidencias en cada sprint.<br>Produje entregables visuales y escritos en Figma y reportes, asegurando claridad en la transmisión de la información. | Se logró **documentar de manera precisa y ordenada** los procesos técnicos, facilitando la comprensión del proyecto tanto para un público especializado (desarrolladores, docentes) como para uno no técnico (usuarios, interesados en la landing page). |
+
 
 # Capítulo I: Introducción
 
