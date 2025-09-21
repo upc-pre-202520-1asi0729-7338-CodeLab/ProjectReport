@@ -433,6 +433,40 @@ public class Reservation {
 
 ### 5.1.4. Software Deployment Configuration
 
+
+#### Estrategia de Despliegue
+
+La estrategia de despliegue se realizará considerando cada componente del sistema:
+
+#### Landing Page
+- **Hospedaje:** GitHub Pages o Vercel.  
+- **Proceso:**
+  1. Push en rama `main`.
+  2. GitHub Actions ejecuta build automático.
+  3. Publicación automática en URL de producción.
+
+#### Frontend Web Application (Vue)
+- **Hospedaje:** Vercel o Netlify.  
+- **Proceso:**
+  1. Merge a `main` desde `develop`.
+  2. Pipeline CI/CD ejecuta `npm run build`.
+  3. Despliegue automático en entorno productivo.
+
+#### Backend (RESTful API en Node.js)
+- **Hospedaje:** Heroku, Render o AWS EC2.  
+- **Proceso:**
+  1. Pipeline en CI/CD compila y ejecuta pruebas.
+  2. Despliegue de contenedor **Docker** en servidor.
+  3. Base de datos conectada a **PostgreSQL** en AWS RDS o ElephantSQL.
+
+#### Base de Datos
+- **Motor:** PostgreSQL desplegado en entorno cloud (AWS RDS o ElephantSQL).  
+- **Migraciones:** Administradas con **Sequelize** o **TypeORM**.
+
+#### Notificaciones y Servicios Externos
+- **Integraciones:** Stripe, PayPal, MercadoPago, WhatsApp Cloud API.  
+- **Seguridad:** Variables sensibles gestionadas mediante `.env` y **GitHub Secrets**.
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
