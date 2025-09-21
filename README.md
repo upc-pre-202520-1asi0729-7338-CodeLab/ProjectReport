@@ -343,53 +343,29 @@ const API_URL = 'https://api.hostelmanager.com';
 
  ```
 
-#### VUE (FRONTEND)
+#### TYPESCRIPT (Angular-Frontend)
 
-- Componentes y clases: PascalCase.
+Componentes y clases: PascalCase.
+Interfaces: prefijo “I” (ejemplo: IReservation).
+Servicios: sufijo “Service” (ejemplo: BookingService).
+Módulos: PascalCase (ejemplo: ReservationModule).
+Props y variables: camelCase.
 
-- Interfaces: prefijo I.
+``` 
+@Component({
+  selector: 'app-booking',
+  templateUrl: './booking.component.html',
+  styleUrls: ['./booking.component.css']
+})
+export class BookingComponent {
+  reservationId: number;
 
-- Servicios: sufijo Service.
+  constructor(private bookingService: BookingService) {}
 
-- Módulos/Stores: PascalCase.
-
-- Props y variables: camelCase.
-
-```html 
-<template>
-  <!-- Sección principal de reservas -->
-  <section class="booking">
-    <!-- Mostrar el ID de reserva -->
-    <h2>Booking ID: {{ reservationId }}</h2>
-
-    <!-- Botón que confirma la reserva -->
-    <button @click="confirmBooking">Confirm</button>
-  </section>
-</template>
-
-<script setup lang="ts">
-// Importación de ref para variables reactivas
-import { ref } from 'vue'
-import { BookingService } from '@/services/BookingService'
-
-// Variable reactiva que almacena el ID de reserva
-const reservationId = ref<number>(0)
-
-// Instancia del servicio de reservas
-const bookingService = new BookingService()
-
-// Método que confirma la reserva usando el servicio
-const confirmBooking = (): void => {
-  bookingService.confirm(reservationId.value)
+  confirmBooking(): void {
+    this.bookingService.confirm(this.reservationId);
+  }
 }
-</script>
-
-<style scoped>
-/* Estilos locales para el componente Booking */
-.booking {
-  padding: 1rem; /* Espaciado interno */
-}
-</style>
 ```
 
 
@@ -428,11 +404,43 @@ public class Reservation {
     }
 }
 
-
 ```
+
+Estructura de llaves: apertura en la misma línea.
+Usar “final” para constantes inmutables.
+Manejo de excepciones con “try/catch” solo cuando sea necesario.
 
 ### 5.1.4. Software Deployment Configuration
 
+La estrategia de despliegue se realizará considerando cada componente del sistema:
+Landing Page:
+Hospedaje en GitHub Pages o Vercel.
+Proceso:
+Push en rama “main”.
+GitHub Actions ejecuta build automático.
+Publicación automática en URL de producción.
+
+Frontend Web Application (Angular):
+Hospedaje en Vercel o Netlify.
+Proceso:
+Merge a “main” desde “develop”.
+Pipeline CI/CD ejecuta “ng build –prod”.
+Despliegue automático en entorno productivo.
+
+Backend (RESTful API en Node.js):
+Hospedaje en Heroku, Render o AWS EC2.
+Proceso:
+Pipeline en CI/CD compila y ejecuta pruebas.
+Despliegue de contenedor Docker en servidor.
+Base de datos conectada a PostgreSQL en AWS RDS o ElephantSQL.
+
+Base de datos:
+PostgreSQL desplegado en entorno cloud (AWS RDS o ElephantSQL).
+Migraciones administrativas con Sequelize o TypeORM.
+
+Notificaciones y servicios externos:
+Integración con APIs externas (Stripe, PayPal, MercadoPago, WhatsApp Cloud API).
+Variables sensibles gestionadas mediante “.env” y GitHub Secrets.
 
 #### Estrategia de Despliegue
 
@@ -561,10 +569,64 @@ En este primer sprint, nos enfocamos en la implementación de la Landing Page de
 | 9 | -             | Despliegue de Landing Page   | Alta      | 3  | Hecho      |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se explican y presentan los avances de implementación en relación con la solución desarrollada, según el alcance definido para el sprint. En esta iteración, se completó la implementación de la Landing Page en su totalidad.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
+|upc-pre-202520-1asi0729-7338-CodeLab/LandingPage|main|74c53d5|Initial commit|-|20/09/2025|
+|upc-pre-202520-1asi0729-7338-CodeLab/LandingPage|main|ca89c80|feat: Add style in the project|-|20/09/2025|
+|upc-pre-202520-1asi0729-7338-CodeLab/LandingPage|main|2925f46|feat: Add functional in Javascript|-|20/09/2025|
+|upc-pre-202520-1asi0729-7338-CodeLab/LandingPage|main|aad5c44|feat: upgrade landing page style.|-|20/09/2025|
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+Para este sprint, se logró implementar y desplegar correctamente la Landing Page de la aplicación, cumpliendo con el diseño y los requerimientos establecidos para la plataforma web del negocio. A continuación, se presentan capturas de las vistas implementadas correspondientes a esta sección.
+
+<img src="images/Lan1.jpg">
+<img src="images/Lan2.jpg">
+<img src="images/Lan3.jpg">
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se muestra la ejecución funcional de la landing page, junto con los wireframes y mockups correspondientes al diseño del frontend. Esto permite visualizar el resultado actual y compararlo con las etapas previas de diseño para validar la coherencia entre la planificación y la implementación.
+
+<img src="images/evidenceDoc.jpg">
+
+<img src="images/evidenceDoc2.jpg">
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para realizar el despligue de la landing page, se utilizó la herramienta Github Pages el cuál permite desplegar páginas estáticas de forma sencilla y veloz. Además, proporciona un pipeline de CI/CD que permite desplegar a producción cada vez que se realiza un commit en la rama 'main'. 
+
+Landing Page: https://aqc1019.github.io
+
+<img src="images/evidence.png">
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Esta sección proporciona una visión detallada sobre cómo colaboró el equipo durante el desarrollo del sprint.
+
+<img src="images/Insig.png">
+
+# Conclusiones
+
+##### Establecimiento de la base visual del producto:
+- La implementación de la **Landing Page** permitió crear una primera versión pública del sistema, que comunica la propuesta de valor a potenciales usuarios y clientes.
+- Se logró un diseño visual claro, funcional y alineado con los objetivos del negocio.
+
+##### Avance en la conceptualización del sistema:
+- A través de los **prototipos del Front-End**, se validaron las vistas principales que compondrán el sistema, facilitando el entendimiento del flujo de usuario.
+- Estos prototipos servirán como guía para el desarrollo funcional en los próximos sprints.
+
+##### Organización y documentación inicial:
+- Se documentó el **ciclo de vida del software** y se registraron las actividades realizadas durante el sprint, lo cual fortalece la planificación futura y la trazabilidad del proyecto.
+- Esta base documental permite al equipo mantener claridad sobre los objetivos y decisiones técnicas adoptadas.
+
+##### Despliegue exitoso del primer entregable:
+- La **Landing Page** fue publicada en un entorno accesible públicamente, lo que permite mostrar el progreso del equipo de forma tangible a los stakeholders.
 
 # Conclusiones
 
