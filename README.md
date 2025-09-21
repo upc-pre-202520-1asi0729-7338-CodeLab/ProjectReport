@@ -630,6 +630,21 @@ Esta sección proporciona una visión detallada sobre cómo colaboró el equipo 
 
 # Conclusiones
 
+**Definición clara del alcance:**
+En esta primera fase se logró establecer qué funcionalidades cubrirá el sistema (reservas, gestión de huéspedes, servicios, reportes, seguridad), tomando como base los user stories. Esto permitió delimitar el alcance y orientar el diseño de la interfaz.
+
+**Avances en el diseño visual:**
+Se desarrolló la landing page y los diseños de la aplicación web en Figma, definiendo la estructura general de navegación (tabs principales: Inicio, Gestión, Servicios, Reportes). Esto sienta las bases para un desarrollo consistente en Angular.
+
+**Priorización de la experiencia de usuario:**
+Los diseños fueron pensados para que el administrador tenga una navegación sencilla y clara, con sub-tabs específicos según cada proceso. Esto favorece la usabilidad y facilita la futura implementación técnica.
+
+**Consistencia y escalabilidad del diseño:**
+El sistema de diseño planteado (toolbar + barra lateral de navegación + área principal de contenido) permite mantener consistencia en todas las vistas y es escalable para futuras funciones o mejoras.
+
+**Preparación para la implementación:**
+Aunque aún no se ha desarrollado la aplicación completa, los prototipos diseñados en Figma son una guía sólida para los próximos pasos en la codificación con Angular, asegurando una transición más fluida entre diseño y desarrollo.
+
 # Bibliografía
 
 # Anexos
