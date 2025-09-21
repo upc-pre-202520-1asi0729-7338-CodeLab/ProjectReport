@@ -543,6 +543,23 @@ La tabla Aspect Leaders and Collaborators es una herramienta de gestión esencia
 | Pillaca Velasquez, Andre | Andreeeee1234 | C | C | C  |
 
 #### 5.2.1.3. Sprint Backlog 1
+
+En este primer sprint, nos enfocamos en la implementación de la Landing Page del sistema, abarcando la estructura general, el diseño visual y la navegación básica. Además, se trabajó en el prototipo visual del frontend, permitiendo validar las principales funcionalidades desde la perspectiva del usuario.
+
+### Sprint Backlog 1 - Entregables: Landing Page + Prototipo Web
+
+| # | User Story ID | Título                       | Prioridad | Story Points | Estado     |
+|---|---------------|------------------------------|-----------|--------------|------------|
+| 1 | US25          | Información en landing page  | Alta      | 3            | Hecho      |
+| 2 | US26          | Registro rápido en landing   | Media     | 5            | Hecho      |
+| 3 | US27          | Formulario de contacto       | Media     | 3            | Hecho      |
+| 4 | US28          | Visualizar planes y precios  | Alta      | 3            | Hecho      |
+| 5 | US01          | Buscar disponibilidad        | Alta      | 5            | Prototipo  |
+| 6 | US02          | Crear reserva                | Alta      | 8            | Prototipo  |
+| 7 | US05          | Reserva en línea             | Alta      | 8            | Prototipo  |
+| 8 | -             | Documentación del Sprint     | Media     | 3  | Hecho      |
+| 9 | -             | Despliegue de Landing Page   | Alta      | 3  | Hecho      |
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
