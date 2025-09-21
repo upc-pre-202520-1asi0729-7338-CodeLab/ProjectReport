@@ -164,7 +164,7 @@ Finalizar todos los entregables y actividades que me sean pendientes para el bue
     </tr>
     <tr>
         <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="/images/Jhordi_Luis.jpeg" alt="Jhordi Luis Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="/images/Jhordi.jpeg" alt="Jhordi Luis Photo" style="display: block; margin: 50 auto 0 auto;"/>
         </td>
         <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <strong>Jhordi Luis Carranza Pérez (U20191E835)</strong> - Ingeniería de Software<br><br>
