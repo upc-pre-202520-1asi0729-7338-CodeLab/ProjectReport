@@ -146,11 +146,17 @@ Codelab es una startup orientada al desarrollo de software, cuyo principal objet
     </tr>
     <tr>
         <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="/images/Jose_Diego.jpeg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="/images/diego.jpeg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
         </td>
         <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <strong>Bautista Rivera José Diego (U202310949)</strong> - Ingeniería de Software<br><br>
-            Descripción pendiente. Habilidades: Pendientes. Compromiso: Pendiente.
+           Me encuentro cursando el 5to ciclo de la carrera de Ingeniería de Software, con 19 años de edad. Soy una persona comprometida, organizada y responsable con el desarrollo colectivo y trabajo en equipo. Y tengo una meta y vocación de desempeñarme en áreas como desarrollador de base de datos y desarrollo web.
+
+Habilidades:
+Gran aportador de ideas, brindar apoyo integral, comunicar y ejecutar actividades de manera eficiente.
+
+Compromiso:
+Finalizar todos los entregables y actividades que me sean pendientes para el buen desarrollo del proyecto..
         </td>
     </tr>
     <tr>
@@ -169,15 +175,6 @@ Codelab es una startup orientada al desarrollo de software, cuyo principal objet
         <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <strong>Quiroz Cáceres, Adrian Alonso (U202214864)</strong> - Ingeniería de Software<br><br>
             Soy estudiante del 5.º ciclo de Ingeniería de Software. Tengo conocimientos en C++ y bases de datos, áreas que me permiten contribuir al desarrollo de soluciones digitales. En mi tiempo libre disfruto de escuchar música y jugar videojuegos, actividades que me ayudan a mantener el equilibrio entre lo académico y lo personal. Me comprometo a colaborar activamente con mi equipo, cumplir los plazos establecidos y asegurar la calidad de los entregables, con el objetivo de alcanzar los objetivos del proyecto de manera eficiente.
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="/images/Integrante5.jpeg" alt="Integrante 5 Photo" style="display: block; margin: 50 auto 0 auto;"/>
-        </td>
-        <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <strong>Integrante 5</strong> - Ingeniería de Software<br><br>
-            Información pendiente.
         </td>
     </tr>
 </table>
