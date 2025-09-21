@@ -146,7 +146,7 @@ Codelab es una startup orientada al desarrollo de software, cuyo principal objet
     </tr>
     <tr>
         <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
-            <img src="/images/diego.jpeg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
+            <img src="/images/diego.jpg" alt="José Diego Photo" style="display: block; margin: 50 auto 0 auto;"/>
         </td>
         <td style="width: 70%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
             <strong>Bautista Rivera José Diego (U202310949)</strong> - Ingeniería de Software<br><br>
