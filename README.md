@@ -500,6 +500,13 @@
 ---
 
 ## 3.2. Impact Mapping
+
+> ![Impact Mapping](/images/ImpactMapping.png)
+
+El mapa de impacto identifica los **Business Goals**, los **Actors/Personas**, los **Impacts** esperados y los **Deliverables** junto con las **User Stories** que soportan cada entregable.
+
+---
+
 ## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
