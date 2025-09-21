@@ -509,6 +509,57 @@ El mapa de impacto identifica los **Business Goals**, los **Actors/Personas**, l
 
 ## 3.3. Product Backlog
 
+<table>
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción (resumen)</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>US01</td><td>Buscar disponibilidad</td><td>Consultar habitaciones libres.</td><td>5</td></tr>
+    <tr><td>2</td><td>US02</td><td>Crear reserva</td><td>Registrar una reserva para asegurar disponibilidad.</td><td>8</td></tr>
+    <tr><td>3</td><td>US05</td><td>Reserva en línea</td><td>Reservar y pagar en línea para confirmación inmediata.</td><td>8</td></tr>
+    <tr><td>4</td><td>US03</td><td>Modificar reserva</td><td>Actualizar fechas o datos de una reserva.</td><td>5</td></tr>
+    <tr><td>5</td><td>US04</td><td>Cancelar reserva</td><td>Cancelar reservas confirmadas.</td><td>3</td></tr>
+    <tr><td>6</td><td>US06</td><td>Confirmación por correo</td><td>Recibir un email con los detalles de la reserva.</td><td>3</td></tr>
+    <tr><td>7</td><td>US09</td><td>Check-in digital</td><td>Registrar el check-in para actualizar la ocupación.</td><td>5</td></tr>
+    <tr><td>8</td><td>US10</td><td>Check-out digital</td><td>Registrar la salida de un huésped.</td><td>3</td></tr>
+    <tr><td>9</td><td>US07</td><td>Registrar huésped</td><td>Registrar la información de un nuevo huésped.</td><td>3</td></tr>
+    <tr><td>10</td><td>US08</td><td>Actualizar datos de huésped</td><td>Editar información personal de un huésped.</td><td>3</td></tr>
+    <tr><td>11</td><td>US11</td><td>Consultar historial de huésped</td><td>Revisar el historial de visitas.</td><td>3</td></tr>
+    <tr><td>12</td><td>US12</td><td>Registrar preferencias</td><td>Guardar las preferencias del huésped.</td><td>3</td></tr>
+    <tr><td>13</td><td>US13</td><td>Crear servicio adicional</td><td>Definir servicios extras con precios.</td><td>5</td></tr>
+    <tr><td>14</td><td>US15</td><td>Solicitar servicio en estadía</td><td>Pedir un servicio extra en tiempo real.</td><td>5</td></tr>
+    <tr><td>15</td><td>US16</td><td>Pagar servicio adicional</td><td>Pagar los servicios consumidos.</td><td>5</td></tr>
+    <tr><td>16</td><td>US14</td><td>Editar servicio adicional</td><td>Modificar o eliminar un servicio extra.</td><td>3</td></tr>
+    <tr><td>17</td><td>US17</td><td>Registrar pago de reserva</td><td>Validar y registrar pagos recibidos.</td><td>5</td></tr>
+    <tr><td>18</td><td>US18</td><td>Emisión de factura electrónica</td><td>Generar comprobantes automáticos de pago.</td><td>5</td></tr>
+    <tr><td>19</td><td>US19</td><td>Reporte financiero por fechas</td><td>Obtener reportes de ingresos y ocupación.</td><td>5</td></tr>
+    <tr><td>20</td><td>US20</td><td>Conciliación de pagos</td><td>Conciliar pagos con reservas.</td><td>3</td></tr>
+    <tr><td>21</td><td>US25</td><td>Información en landing page</td><td>Ver la propuesta de valor y testimonios.</td><td>3</td></tr>
+    <tr><td>22</td><td>US26</td><td>Registro rápido desde landing</td><td>Crear una cuenta desde la landing.</td><td>5</td></tr>
+    <tr><td>23</td><td>US27</td><td>Formulario de contacto</td><td>Enviar una consulta o solicitud de demo.</td><td>3</td></tr>
+    <tr><td>24</td><td>US28</td><td>Visualizar planes y precios</td><td>Revisar planes de suscripción y costos.</td><td>3</td></tr>
+    <tr><td>25</td><td>US21</td><td>Autenticación segura</td><td>Iniciar sesión con credenciales protegidas.</td><td>5</td></tr>
+    <tr><td>26</td><td>US22</td><td>Recuperar contraseña</td><td>Restablecer la contraseña olvidada.</td><td>3</td></tr>
+    <tr><td>27</td><td>US23</td><td>Gestión de roles</td><td>Asignar roles con distintos permisos.</td><td>5</td></tr>
+    <tr><td>28</td><td>US24</td><td>Acceso multicanal</td><td>Acceder desde web o móvil.</td><td>3</td></tr>
+    <tr><td>29</td><td>US29</td><td>Endpoint de reservas</td><td>Crear reservas mediante un endpoint RESTful.</td><td>8</td></tr>
+    <tr><td>30</td><td>US30</td><td>Endpoint de pagos</td><td>Registrar pagos mediante un endpoint RESTful.</td><td>8</td></tr>
+  </tbody>
+</table>
+
+---
+
+**Referencia del Backlog en Jira:**  
+![Product Backlog](/images/ProductBacklog_1.png)
+![Product Backlog](/images/ProductBacklog_2.png)
+[https://upc-team-tohi2bk.atlassian.net/jira/software/projects/HOSTEL/boards/1/backlog](https://upc-team-tohi2bk.atlassian.net/jira/software/projects/HOSTEL/boards/1/backlog)
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
