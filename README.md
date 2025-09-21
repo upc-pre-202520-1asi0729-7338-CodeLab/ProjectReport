@@ -114,13 +114,16 @@
 - [**Anexos**](#anexos)
 
 ## Student Outcome
-**El curso contribuye al cumplimiento del Student Outcome ABET:** ABET – EAC - Student Outcome 3
+**El curso contribuye al cumplimiento del Student Outcome ABET:** ABET – EAC - Student Outcome 3  
 <br/> **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
 | Criterio específico                                                    | Acciones realizadas | Conclusiones |
 |------------------------------------------------------------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia.   |                     |              |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. |                     |              |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **Jhordi Carranza:**<br>Realicé entrevistas a ambos segmentos de usuarios (huéspedes y administradores) para levantar requerimientos.<br>Presenté y expliqué el Capítulo V ante el equipo, especialmente en temas de configuración del entorno, control de versiones y despliegue.<br>Exposé los diseños en Figma de la web app, explicando el flujo de navegación y la justificación de decisiones de diseño.<br><br>**Jhoan Darner Janampa Gutierrez:**<br>Presenté el *Solution Profile* al equipo, exponiendo cómo la propuesta resolvía las necesidades detectadas.<br>Expliqué los hallazgos del *Análisis competitivo* y su impacto en las decisiones de diseño.<br>Compartí los resultados de entrevistas y la elaboración del *User Task Matrix*, detallando cómo cada hallazgo orientaba las funcionalidades clave.<br><br>**Bautista Rivera José Diego:**<br>Expliqué la priorización del *Product Backlog* al equipo, justificando el orden de desarrollo.<br>Presenté las *User Stories* a partir de los escenarios de usuario, mostrando cómo respondían a necesidades concretas.<br>Desarrollé la dinámica de *Impact Mapping* para alinear al equipo con los objetivos estratégicos del producto.<br><br>**Quiroz Cáceres, Adrian:**<br>Presenté el diseño de la *Landing Page* y los prototipos, explicando la experiencia de usuario y los criterios de usabilidad aplicados.<br>Expuse el *Product Design* con los flujos de interacción y los componentes visuales.<br>Guié al equipo en la sesión de *Event Storming* para identificar procesos clave y validarlos colaborativamente. | **Jhordi Carranza:** Pude comunicarme con distintos públicos (usuarios no técnicos en entrevistas y equipo técnico en presentaciones), validando requerimientos y obteniendo retroalimentación útil.<br><br>**Jhoan Darner Janampa Gutierrez:** Logré transmitir ideas con claridad y respaldarlas con información, facilitando que el equipo entendiera las decisiones y se alineara a los objetivos del producto.<br><br>**Bautista Rivera José Diego:** Pude comunicar de manera estructurada la lógica detrás de las prioridades y requerimientos, logrando que el equipo comprendiera la relevancia de cada funcionalidad.<br><br>**Quiroz Cáceres, Adrian:** Logré explicar conceptos técnicos y visuales con un lenguaje claro, facilitando que tanto compañeros como usuarios comprendieran el diseño y sus beneficios. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jhordi Carranza:**<br>Redacté el Capítulo V: *Product Implementation, Validation & Deployment*, estructurado en secciones técnicas (gestión del código, guías de estilo, evidencia de despliegue, colaboración en sprints).<br>Elaboré la documentación de servicios y evidencias en cada sprint.<br>Produje entregables visuales y escritos en Figma y reportes, asegurando claridad en la transmisión de la información.<br><br>**Jhoan Darner Janampa Gutierrez:**<br>Documenté el *Solution Profile* con la justificación del producto.<br>Elaboré el *Análisis competitivo* en formato comparativo, resaltando ventajas y debilidades frente a otros sistemas.<br>Redacté el *User Task Matrix* y el proceso *Lean UX*, estructurando la información en tablas y diagramas de fácil comprensión.<br><br>**Bautista Rivera José Diego:**<br>Redacté las *User Stories* con criterios de aceptación claros.<br>Elaboré el *Product Backlog* en un formato visual y organizado para facilitar la planificación.<br>Desarrollé el documento de *Impact Mapping* conectando objetivos de negocio con entregables técnicos.<br><br>**Quiroz Cáceres, Adrian:**<br>Documenté el *Product Design* con esquemas y descripciones de flujos de usuario.<br>Elaboré la documentación de la *Landing Page* con capturas y explicaciones técnicas.<br>Redacté los resultados del *Event Storming* y el proceso *Lean UX*, sintetizando ideas y estructurando la información obtenida. | **Jhordi Carranza:** Desarrollé documentos precisos y organizados que permitieron transmitir información técnica a especialistas y facilitar la comprensión a públicos no técnicos.<br><br>**Jhoan Darner Janampa Gutierrez:** Pude sintetizar información compleja en documentos claros y visuales, lo que permitió comprender los resultados sin necesidad de conocimientos técnicos avanzados.<br><br>**Bautista Rivera José Diego:** Mis escritos permitieron que tanto el equipo como los docentes tuvieran una visión clara de las funcionalidades y del avance del proyecto.<br><br>**Quiroz Cáceres, Adrian:** Logré comunicar por escrito de manera clara los diseños y procesos, facilitando la comprensión del producto a audiencias técnicas y no técnicas. |
+
+
+
 
 # Capítulo I: Introducción
 
@@ -2311,6 +2314,21 @@ Esta sección proporciona una visión detallada sobre cómo colaboró el equipo 
 - La **Landing Page** fue publicada en un entorno accesible públicamente, lo que permite mostrar el progreso del equipo de forma tangible a los stakeholders.
 
 # Conclusiones
+
+**Definición clara del alcance:**
+En esta primera fase se logró establecer qué funcionalidades cubrirá el sistema (reservas, gestión de huéspedes, servicios, reportes, seguridad), tomando como base los user stories. Esto permitió delimitar el alcance y orientar el diseño de la interfaz.
+
+**Avances en el diseño visual:**
+Se desarrolló la landing page y los diseños de la aplicación web en Figma, definiendo la estructura general de navegación (tabs principales: Inicio, Gestión, Servicios, Reportes). Esto sienta las bases para un desarrollo consistente en Angular.
+
+**Priorización de la experiencia de usuario:**
+Los diseños fueron pensados para que el administrador tenga una navegación sencilla y clara, con sub-tabs específicos según cada proceso. Esto favorece la usabilidad y facilita la futura implementación técnica.
+
+**Consistencia y escalabilidad del diseño:**
+El sistema de diseño planteado (toolbar + barra lateral de navegación + área principal de contenido) permite mantener consistencia en todas las vistas y es escalable para futuras funciones o mejoras.
+
+**Preparación para la implementación:**
+Aunque aún no se ha desarrollado la aplicación completa, los prototipos diseñados en Figma son una guía sólida para los próximos pasos en la codificación con Angular, asegurando una transición más fluida entre diseño y desarrollo.
 
 # Bibliografía
 
