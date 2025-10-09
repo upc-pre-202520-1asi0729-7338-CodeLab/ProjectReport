@@ -317,7 +317,7 @@ El Lean UX Canvas, según Gothelf y Seiden (2021), es una herramienta visual de 
 
 ###### Figura 1
 _Lean UX Canvas de Hostel Manager_
-![Lean Ux Canva](/images/LeanUXCanvas.jpg)
+![Lean Ux Canva](/images/LeanUXCanvas.png)
 Enlace: `[Lean UX Canvas] (https://miro.com/app/board/uXjVJ8NrdSs=/?share_link_id=146684769005)`
 
 ## 1.3. Segmentos objetivo
