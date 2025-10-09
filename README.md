@@ -264,12 +264,32 @@ Initial Segment:
 - El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas turísticas de Perú y Latinoamérica, con recursos económicos limitados, que necesitan una solución de gestión sencilla y flexible mediante una suscripción mensual.
 
 #### 1.2.2.2. Lean UX Assumptions
+**Business Assumptions**
 
-- Los administradores de hostales necesitan herramientas tecnológicas fáciles de usar y de bajo costo.  
-- Los procesos manuales provocan una pérdida de tiempo, generan errores y generan una baja competitividad en comparación con las grandes cadenas. 
+- Un modelo de suscripción será más rentable que un pago único.
+- Los administradores estarán dispuestos a pagar una suscripción mensual si les ayuda a aumentar la eficiencia y la rentabilidad.
+- Si la aplicación web demuestra resultados medibles en cuanto al ahorro de tiempo o ingresos, los administradores recomendarán la aplicación web.
+
+**User Assumptions**
+
+- Los administradores de hostales necesitan herramientas tecnológicas fáciles de usar y de bajo costo.
+- Los administradores no estan acostumbrados a la tecnologia, por lo que prefieren interfaces simples e intuitivas.
+- Los administradores necesitan poder acceder a la aplicación web desde cualquier dispositivo (móvil o computadora).
+
+**Problem Assumptions**
+
+- Los procesos manuales provocan una pérdida de tiempo, generan errores y generan una baja competitividad en comparación con las grandes cadenas.
+- Muchos hostales no tienen sistemas integrados para gestionar reservas, pagos y control de habitaciones.
+- Los administradores no tienen visibilidad en tiempo real del estado de sus habitaciones ni de los ingresos diarios.
+
+**Solution Assumptions**
+
 - Una aplicación accesible que centralice sus operaciones puede resolver estas necesidades.
-- Los administradores podrán optimizar los ingresos, reducir los errores operativos y mejorar la satisfacción de los huéspedes. 
-- Los usuarios estarán dispuestos a pagar una suscripción mensual si les ayuda a aumentar la eficiencia y la rentabilidad.
+
+**Outcome Assumptions**
+
+- Los administradores podrán optimizar los ingresos, reducir los errores operativos y mejorar la satisfacción de los huéspedes.
+- Los huéspedes experimentarán un servicio más rápido y confiable, lo que mejorará las reseñas en línea.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
