@@ -292,20 +292,25 @@ Initial Segment:
 - Los huéspedes experimentarán un servicio más rápido y confiable, lo que mejorará las reseñas en línea.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+**1. Adopción del producto (Business Assumption 1)**
 
-- Creemos que los administradores optarán por utilizar Hostel Manager para centralizar y gestionar reservas y servicios adicionales, para reducir errores y ahorrar tiempo frente a los procesos manuales. Sabremos que estamos en lo cierto cuando al menos el 70% de los usuarios activos reportan una disminución en errores o duplicación de reservas en el primer trimestre.  
+Creemos que al ofrecer un modelo de suscripción mensual para los administradores de hostales generará una mayor rentabilidad que un pago único, porque ofrece valor continuo y un ingreso estable para ambas partes. 
 
-- Creemos que al ofrecer un modelo de suscripción mensual de bajo costo, para pequeños hostales y hoteles sin acceso a soluciones tecnológicas por el alto costo ayudará a la expansión del negocio. Sabremos que estamos en lo cierto cuando al menos el 50% de los hostales prospectos se conviertan en clientes de pago dentro de los 3 primeros meses.  
+**2. Usabilidad y accesibilidad de la aplicación (User Assumption 1)**
 
-- Creemos que la simplificación de los procesos de check-in y check-out dará como resultado una reducción de tiempos de espera y errores administrativos, aumentando la productividad. Sabremos que estamos en lo cierto cuando los administradores reporten un ahorro promedio de 20 minutos al huésped.  
+Creemos que desarrollar una aplicación web simple, intuitiva y de bajo costo para administradores de hostales logrará una mayor adopción y satisfacción, porque necesitan una herramienta fácil que no requiera habilidades digitales avanzadas.
 
-- Creemos que la generación automática de reportes financieros y operativos dará como resultado una mejor toma de decisiones sin necesidad de conocimientos avanzados y gestión. Sabremos que estamos en lo cierto cuando al menos 60% de los administradores usan los reportes semanales y manifiestan mejoras en la gestión de su negocio.  
+**3. Ineficiencia de los procesos manuales (Problem Assumption 1)**
 
-- Creemos que la integración de un módulo de analítica predictiva dará como resultado una mejor planificación de recursos y estrategias de precios dinámicos. Sabremos que estamos en lo cierto cuando los hostales logren al menos un 5% de incremento en su tasa de ocupación en los primeros meses.  
+Creemos que la gestión manual de reservas, pagos y registros de huéspedes causa pérdida de tiempo, errores y baja competitividad en los administradores de hostales pequeños, porque carecen de sistemas integrados que automaticen sus operaciones.
 
-- Creemos que la implementación de un sistema de soporte y asistencia en tiempo real dará como resultado una rápida resolución de incidencias y una mayor confianza en el uso de la aplicación. Sabremos que estamos en lo correcto cuando al menos el 70% de los administradores califiquen positivamente la asistencia recibida y se reduzca en un 30% las quejas relacionadas con el uso de la plataforma.  
+**4. Centralización de operaciones (Solution Assumption 1)**
 
-- Creemos que la incorporación de pagos digitales (tarjetas, billeteras móviles, transferencia) dará como resultado una mayor comodidad para los huéspedes y un mejor control financiero para los administradores. Sabremos que estamos en lo cierto cuando el 50% de las transacciones se realicen a través de la plataforma en los primeros meses.
+Creemos que crear una aplicación web centralizada para gestionar reservas, pagos y el estado de las habitaciones logrará un mejor control y eficiencia operativa para los administradores de hostales, porque integra múltiples procesos en una sola plataforma accesible.
+
+**5. Mejora de la experiencia del huésped (Outcome Assumption 1)**
+
+Creemos que al usar la aplicación web, los administradores de hostales lograrán una mayor satisfacción de los huéspedes y mejores reseñas, porque un servicio más rápido y confiable mejora la experiencia del cliente.
 
 #### 1.2.2.4. Lean UX Canvas
 
