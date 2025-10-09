@@ -122,11 +122,7 @@
 | Comunica oralmente con efectividad a diferentes rangos de audiencia.   | **Jhordi Carranza:**<br>Realicé entrevistas a ambos segmentos de usuarios (huéspedes y administradores) para levantar requerimientos.<br>Presenté y expliqué el Capítulo V ante el equipo, especialmente en temas de configuración del entorno, control de versiones y despliegue.<br>Exposé los diseños en Figma de la web app, explicando el flujo de navegación y la justificación de decisiones de diseño.<br><br>**Jhoan Darner Janampa Gutierrez:**<br>Presenté el *Solution Profile* al equipo, exponiendo cómo la propuesta resolvía las necesidades detectadas.<br>Expliqué los hallazgos del *Análisis competitivo* y su impacto en las decisiones de diseño.<br>Compartí los resultados de entrevistas y la elaboración del *User Task Matrix*, detallando cómo cada hallazgo orientaba las funcionalidades clave.<br><br>**Bautista Rivera José Diego:**<br>Expliqué la priorización del *Product Backlog* al equipo, justificando el orden de desarrollo.<br>Presenté las *User Stories* a partir de los escenarios de usuario, mostrando cómo respondían a necesidades concretas.<br>Desarrollé la dinámica de *Impact Mapping* para alinear al equipo con los objetivos estratégicos del producto.<br><br>**Quiroz Cáceres, Adrian:**<br>Presenté el diseño de la *Landing Page* y los prototipos, explicando la experiencia de usuario y los criterios de usabilidad aplicados.<br>Expuse el *Product Design* con los flujos de interacción y los componentes visuales.<br>Guié al equipo en la sesión de *Event Storming* para identificar procesos clave y validarlos colaborativamente. | **Jhordi Carranza:** Pude comunicarme con distintos públicos (usuarios no técnicos en entrevistas y equipo técnico en presentaciones), validando requerimientos y obteniendo retroalimentación útil.<br><br>**Jhoan Darner Janampa Gutierrez:** Logré transmitir ideas con claridad y respaldarlas con información, facilitando que el equipo entendiera las decisiones y se alineara a los objetivos del producto.<br><br>**Bautista Rivera José Diego:** Pude comunicar de manera estructurada la lógica detrás de las prioridades y requerimientos, logrando que el equipo comprendiera la relevancia de cada funcionalidad.<br><br>**Quiroz Cáceres, Adrian:** Logré explicar conceptos técnicos y visuales con un lenguaje claro, facilitando que tanto compañeros como usuarios comprendieran el diseño y sus beneficios. |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Jhordi Carranza:**<br>Redacté el Capítulo V: *Product Implementation, Validation & Deployment*, estructurado en secciones técnicas (gestión del código, guías de estilo, evidencia de despliegue, colaboración en sprints).<br>Elaboré la documentación de servicios y evidencias en cada sprint.<br>Produje entregables visuales y escritos en Figma y reportes, asegurando claridad en la transmisión de la información.<br><br>**Jhoan Darner Janampa Gutierrez:**<br>Documenté el *Solution Profile* con la justificación del producto.<br>Elaboré el *Análisis competitivo* en formato comparativo, resaltando ventajas y debilidades frente a otros sistemas.<br>Redacté el *User Task Matrix* y el proceso *Lean UX*, estructurando la información en tablas y diagramas de fácil comprensión.<br><br>**Bautista Rivera José Diego:**<br>Redacté las *User Stories* con criterios de aceptación claros.<br>Elaboré el *Product Backlog* en un formato visual y organizado para facilitar la planificación.<br>Desarrollé el documento de *Impact Mapping* conectando objetivos de negocio con entregables técnicos.<br><br>**Quiroz Cáceres, Adrian:**<br>Documenté el *Product Design* con esquemas y descripciones de flujos de usuario.<br>Elaboré la documentación de la *Landing Page* con capturas y explicaciones técnicas.<br>Redacté los resultados del *Event Storming* y el proceso *Lean UX*, sintetizando ideas y estructurando la información obtenida. | **Jhordi Carranza:** Desarrollé documentos precisos y organizados que permitieron transmitir información técnica a especialistas y facilitar la comprensión a públicos no técnicos.<br><br>**Jhoan Darner Janampa Gutierrez:** Pude sintetizar información compleja en documentos claros y visuales, lo que permitió comprender los resultados sin necesidad de conocimientos técnicos avanzados.<br><br>**Bautista Rivera José Diego:** Mis escritos permitieron que tanto el equipo como los docentes tuvieran una visión clara de las funcionalidades y del avance del proyecto.<br><br>**Quiroz Cáceres, Adrian:** Logré comunicar por escrito de manera clara los diseños y procesos, facilitando la comprensión del producto a audiencias técnicas y no técnicas. |
 
-
-
-
 # Capítulo I: Introducción
-
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 Codelab es una startup orientada al desarrollo de software, cuyo principal objetivo es diseñar soluciones tecnológicas que respondan de manera creativa y eficiente a los retos que enfrentan las empresas en el entorno digital. La iniciativa surge de estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), quienes, motivados por su formación académica y su espíritu innovador, buscan aportar valor mediante el uso estratégico de la tecnología.
@@ -136,7 +132,10 @@ Codelab es una startup orientada al desarrollo de software, cuyo principal objet
 **Visión:**<br>Nuestra visión es consolidarnos como una empresa referente en el sector tecnológico, contribuyendo al progreso digital y convirtiéndonos en socios estratégicos de organizaciones que buscan generar impacto sostenible en la sociedad.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+En esta sección se describen los perfiles de los integrantes clave del equipo de Codelab responsables del desarrollo de Hostel Manager. Cada perfil incluye la formación académica, los conocimientos de cada uno y las responsabilidades dentro del proyecto, con el fin de resaltar las competencias que impulsan la innovación en nuestra startup.
 
+###### Tabla 1
+_Listado de integrantes del equipo de Codelab a cargo de Hostel Manager_
 <table style="width: 100%; border-collapse: collapse;">
     <tr>
         <td style="width: 30%; border: 1px solid #FFF; padding: 10px; vertical-align: top;">
@@ -207,7 +206,6 @@ Al mismo tiempo, los huéspedes actuales esperan experiencias digitales rápidas
 En este contexto, Hostel Manager surge para cerrar esa brecha: ofrece una solución integral, accesibilidad y escalable que digitaliza la gestión hotelera y mejora la eficiencia operativa.
 
 ###### Tabla 2
-
 _Aplicación de la metodología de las 5Ws y 2Hs para el análisis de antecedentes y la identificación de la problemática del proyecto_
 
 | **Guía de las 5Ws y 2Hs** | **Preguntas** | **Descripción** |
@@ -230,13 +228,11 @@ _Aplicación de la metodología de las 5Ws y 2Hs para el análisis de antecedent
 | **How much?** | ¿Cuál es el modelo de negocio? | La plataforma funcionará bajo un modelo de suscripción mensual accesible para hostales y hoteles, con planes escalables según el número de habitaciones o usuarios administradores registrados. Este esquema permite a los negocios pagar únicamente por lo que utilizan, manteniendo los costos bajo control. |
 
 ### 1.2.2. Lean UX Process
-
 Con el objetivo de optimizar nuestro enfoque en el diseño centrado en el usuario, hemos adoptado las buenas prácticas descritas por Gothelf y Seiden (2021) para estructurar nuestro propio Lean UX Process dentro del proyecto. Según los autores, el Lean UX representa una evolución natural impulsada por la transformación continua en la forma en que se diseñan productos y servicios digitales. Este enfoque combina herramientas de diseño con metodologías ágiles de desarrollo de software, fomentando la colaboración continua entre todos los actores involucrados.
 
 En el contexto hotelero y de hostales, donde la experiencia del huésped es el eje central de la propuesta de valor, Lean UX resulta particularmente valioso al permitir ciclos iterativos rápidos, validación temprana de hipótesis y una comunicación fluida entre diseñadores, desarrolladores, personal operativo y stakeholders. Esta filosofía no solo mejora la eficiencia en la toma de decisiones, sino que garantiza que las soluciones estén profundamente alineadas con las necesidades reales de los huéspedes y los objetivos estratégicos del negocio.
 
 #### 1.2.2.1. Lean UX Problem Statements
-
 Domain:
 
 - Los administradores de hostales y de hoteles independientes carecen de un sistema centralizado y de fácil acceso para gestionar las reservaciones, los huéspedes y los servicios adicionales. Como resultado, recurren a procesos manuales, lo que conduce a que la información se duplique, se cometan errores y se pierdan oportunidades de ingresos.
@@ -338,7 +334,8 @@ _Especificación de cada uno de los segmentos objetivos identificados para Hoste
 
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
-
+###### Tabla 4
+_Análisis Competitivo organizado para todos los competidores potenciales de Hostel Manager_
 <table border="1" style="text-align: center; border-collapse: collapse; width: 100%;">
   <tbody>
     <tr>
@@ -524,14 +521,11 @@ _Especificación de cada uno de los segmentos objetivos identificados para Hoste
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
-
 Para destacar frente a competidores como Small Hotels Latin America, Samin PMS y Amenitiz y consolidar nuestra posición en el mercado de soluciones de gestión para hostales y pequeños hoteles, resulta imprescindible diseñar un conjunto de estrategias y tácticas coordinadas que refuercen la diferenciación de HostelManager, aumenten la adopción en LATAM y consoliden su escalabilidad.
 
-1. Desarrollo de una Propuesta de Valor Distintiva
+**1. Desarrollo de una Propuesta de Valor Distintiva**
 
-Estrategia:
-
-Posicionar a HostelManager como el PMS más simple y económico para hoteles y hostales de LATAM, ofreciendo en una sola plataforma las funciones esenciales (reservas, gestión de huéspedes, facturación y calendario de disponibilidad), sin necesidad de soporte externo ni configuraciones complejas.
+Estrategia: Posicionar a HostelManager como el PMS más simple y económico para hoteles y hostales de LATAM, ofreciendo en una sola plataforma las funciones esenciales (reservas, gestión de huéspedes, facturación y calendario de disponibilidad), sin necesidad de soporte externo ni configuraciones complejas.
 
 Tácticas:
 
@@ -554,11 +548,9 @@ Indicadores de éxito:
 - Engagement en videos ≥ 40 % visualización.
 
 
-2. Optimización de la Experiencia de Usuario (UX)
+**2. Optimización de la Experiencia de Usuario (UX)**
 
-Estrategia:
-
-Diseñar una plataforma intuitiva y práctica que no requiera asistencia externa, garantizando que cualquier administrador pueda aprender a usarla en pocos minutos.
+Estrategia: Diseñar una plataforma intuitiva y práctica que no requiera asistencia externa, garantizando que cualquier administrador pueda aprender a usarla en pocos minutos.
 
 Tácticas:
 
@@ -576,11 +568,9 @@ Indicadores de éxito:
 
 - Tiempo de check-in ≤ 2 minutos.
 
-3. Expansión de la Base de Usuarios
+**3. Expansión de la Base de Usuarios**
 
-Estrategia:
-
-Iniciar con hostales independientes de bajo presupuesto en LATAM y luego expandirse a pequeños hoteles familiares y B&B urbanos.
+Estrategia: Iniciar con hostales independientes de bajo presupuesto en LATAM y luego expandirse a pequeños hoteles familiares y B&B urbanos.
 
 Tácticas:
 
@@ -598,11 +588,9 @@ Indicadores de éxito:
 
 - Tasa de referidos ≥ 20 %.
 
-4. Marketing Digital de Alta Precisión
+**4. Marketing Digital de Alta Precisión**
 
-Estrategia:
-
-Atraer administradores mediante campañas enfocadas en simplicidad y bajo costo, sin prometer soporte extra.
+Estrategia: Atraer administradores mediante campañas enfocadas en simplicidad y bajo costo, sin prometer soporte extra.
 
 Tácticas:
 
@@ -620,11 +608,9 @@ Indicadores de éxito:
 
 - CTR en anuncios de video ≥ 2.5 %.
 
-5. Alianzas Comerciales y Cooperaciones Estratégicas
+**5. Alianzas Comerciales y Cooperaciones Estratégicas**
 
-Estrategia:
-
-Aumentar la visibilidad y adopción de HostelManager mediante convenios con actores del ecosistema turístico y educativo.
+Estrategia: Aumentar la visibilidad y adopción de HostelManager mediante convenios con actores del ecosistema turístico y educativo.
 
 Tácticas:
 
@@ -644,112 +630,78 @@ Indicadores de éxito:
 
 - Conversión en eventos ≥ 30 % de asistentes interesados.
 
-
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-
 Con el fin de comprender a profundidad las necesidades, problemas y expectativas de nuestros usuarios potenciales, hemos realizado entrevistas a administradores de hoteles y huéspedes que se hospedan en establecimientos de mediana y pequeña escala.
 
 Para ello, les planteamos una serie de preguntas generales y específicas que nos permiten mapear su contexto, hábitos, experiencias previas y nivel de disposición hacia soluciones como nuestro sistema de gestión digital.
 
-Administradores de hoteles (pequeños y medianos).
+**Administradores de hoteles (pequeños y medianos)**
 
 a) Preguntas Generales
 - ¿Cómo se llama su establecimiento y cuántas habitaciones administran?
 
-
 - ¿Cuál es su rol dentro del hostal/hotel?
-
 
 - ¿Actualmente cómo gestionan las reservas, check-in, check-out y servicios adicionales?
 
-
 - ¿Qué métodos de pago ofrecen a sus clientes?
-
 
 - ¿Han usado antes algún sistema digital para gestión? ¿Qué les gustó y qué no?
 
 
 b) Preguntas Específicas
-
 - ¿Cuáles son los principales problemas que enfrentan en la administración diaria (errores en reservas, pagos, comunicación, etc.)?
-
 
 - ¿Qué tan importante es para usted contar con reportes de ocupación, ingresos y satisfacción de clientes?
 
-
-
 - ¿Le resultaría útil contar con una plataforma que integre en un solo lugar reservas, pagos y comunicación con clientes?
-
 
 - Si tuviera un sistema que enviará notificaciones automáticas (ej. recordatorios de pago o llegada de clientes), ¿lo usaría?
 
-
 - ¿Qué tan dispuesto estaría a pagar una suscripción mensual por un sistema que le ahorre tiempo y evite pérdidas económicas?
-
 
 - ¿Qué funcionalidades considera más críticas para su negocio (control de habitaciones, facturación digital, integración con pasarelas de pago, etc.)?
 
-
 - ¿Cuánto tiempo diario invierte en la gestión manual de su hostal/hotel y cuánto le gustaría reducirlo?
-
 
 - ¿Le sería útil un sistema que le muestre estadísticas de temporadas altas y bajas para planificar precios?
 
-
-Huéspedes de hoteles
+**Huéspedes de hoteles**
 
 a) Preguntas Generales
-
 - ¿Cómo te llamas y cuántos años tienes?
-
 
 - ¿Qué tan seguido te hospedas en hoteles/hostales (viajes de estudio, trabajo, turismo)?
 
-
 - ¿Cómo sueles buscar y reservar hospedajes (apps, webs, agencias, redes sociales)?
-
 
 - ¿Qué dispositivos utilizas más para buscar hospedajes (celular, laptop, tablet)?
 
-
--¿Qué factores consideras más importantes al elegir un hospedaje (precio, ubicación, reseñas, servicios)?
-
+- ¿Qué factores consideras más importantes al elegir un hospedaje (precio, ubicación, reseñas, servicios)?
 
 b) Preguntas Específicas
+- ¿Has tenido alguna vez problemas con reservas manuales (ej. confusión al llegar, reservas no registradas)?
 
--¿Has tenido alguna vez problemas con reservas manuales (ej. confusión al llegar, reservas no registradas)?
+- ¿Qué tan importante es para ti poder reservar, pagar y solicitar servicios desde el celular sin llamadas o papeleo?
 
-
--¿Qué tan importante es para ti poder reservar, pagar y solicitar servicios desde el celular sin llamadas o papeleo?
-
-
--¿Qué servicios adicionales valoras más al hospedarte (desayuno, limpieza, lavandería, transporte, WiFi)?
-
+- ¿Qué servicios adicionales valoras más al hospedarte (desayuno, limpieza, lavandería, transporte, WiFi)?
 
 - ¿Qué tan útil te parecería que un sistema te confirme en tiempo real tu reserva y pago?
 
-
 - ¿Te gustaría recibir notificaciones automáticas con información de tu reserva, horarios de check-in y promociones?
-
 
 - ¿Qué canales digitales usas para validar la confianza de un hotel (reseñas en Google, Booking, Instagram, TikTok)?
 
-
 - ¿Qué fue lo que más te frustró en tu última experiencia de hospedaje y qué te gustaría que mejorara?
-
 
 - ¿Qué tan importante sería para ti poder chatear con el hotel directamente por la app antes y durante tu estancia?
 
-
 - ¿Si tuvieras que recomendar un hospedaje a un amigo, qué aspecto debería destacar para que lo recomiendes?
-
 
 - ¿Qué tanto confiarías en un sistema digital que centraliza todo (reserva, pago y comunicación con el hotel) en un solo lugar?
 
-
 ### 2.2.2. Registro de entrevistas
-
 Segmento Objetivo 1: Administrador/a
 
 Entrevista N1:
