@@ -313,9 +313,12 @@ Creemos que crear una aplicación web centralizada para gestionar reservas, pago
 Creemos que al usar la aplicación web, los administradores de hostales lograrán una mayor satisfacción de los huéspedes y mejores reseñas, porque un servicio más rápido y confiable mejora la experiencia del cliente.
 
 #### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas, según Gothelf y Seiden (2021), es una herramienta visual de una sola página diseñada para alinear equipos multidisciplinarios en torno a los supuestos clave de un producto o característica. Estructurado en secciones como Problem Statement, Business Outcomes, User Outcomes, Hypotheses y Experiments, permite desglosar rápidamente el contexto del usuario, los objetivos del negocio, las métricas de éxito y las pruebas mínimas necesarias para validar ideas antes de invertir en desarrollo completo. Al fomentar un ciclo continuo de supuestos–experimentación–aprendizaje, el Lean UX Canvas facilita la toma de decisiones basada en datos reales, reduce el desperdicio de esfuerzo y acelera el descubrimiento de soluciones que aporten valor tanto a los usuarios como al negocio.
 
+###### Figura 1
+_Lean UX Canvas de Hostel Manager_
 ![Lean Ux Canva](/images/LeanUXCanvas.jpg)
-
+Enlace: `[Lean UX Canvas] (https://miro.com/app/board/uXjVJ8NrdSs=/?share_link_id=146684769005)`
 ## 1.3. Segmentos objetivo
 
 | Descripción | Estadísticas demográficas | Comportamiento y retos | Justificación de datos |
