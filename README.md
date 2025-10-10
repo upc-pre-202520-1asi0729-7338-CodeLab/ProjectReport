@@ -731,24 +731,55 @@ El trabajo colaborativo permitió integrar los bounded contexts sin conflictos y
 
 
 
-# Conclusiones
+# Conclusiones Sprint 1
 
-##### Establecimiento de la base visual del producto:
+### **Bautista Rivera, José Diego**
+#### Establecimiento de la base visual del producto:
 - La implementación de la **Landing Page** permitió crear una primera versión pública del sistema, que comunica la propuesta de valor a potenciales usuarios y clientes.
 - Se logró un diseño visual claro, funcional y alineado con los objetivos del negocio.
 
-##### Avance en la conceptualización del sistema:
+### **Carranza Pérez, Jhordi Luis**
+#### Avance en la conceptualización del sistema:
 - A través de los **prototipos del Front-End**, se validaron las vistas principales que compondrán el sistema, facilitando el entendimiento del flujo de usuario.
 - Estos prototipos servirán como guía para el desarrollo funcional en los próximos sprints.
 
-##### Organización y documentación inicial:
+### **Janampa Gutiérrez, Jhoan Darner**
+#### Organización y documentación inicial:
 - Se documentó el **ciclo de vida del software** y se registraron las actividades realizadas durante el sprint, lo cual fortalece la planificación futura y la trazabilidad del proyecto.
 - Esta base documental permite al equipo mantener claridad sobre los objetivos y decisiones técnicas adoptadas.
 
-##### Despliegue exitoso del primer entregable:
+### **Quiroz Cáceres, Adrián Alonso**
+#### Despliegue exitoso del primer entregable:
 - La **Landing Page** fue publicada en un entorno accesible públicamente, lo que permite mostrar el progreso del equipo de forma tangible a los stakeholders.
 
-# Conclusiones
+# Conclusiones Sprint 2
+
+### **Bautista Rivera, José Diego**
+1. Este sprint permitió consolidar la arquitectura modular del frontend, aplicando correctamente los principios de los *bounded contexts* y mejorando la comprensión del flujo general de la aplicación.  
+2. La integración de los distintos módulos demostró la importancia de mantener una comunicación constante entre los miembros del equipo para evitar conflictos de código.  
+3. Fue clave reforzar los conocimientos de Angular y manejo de servicios HTTP, lo que permitió una implementación más limpia y eficiente.  
+4. Este sprint marcó un avance sólido en la madurez técnica del equipo y en la capacidad de entregar resultados funcionales dentro de los plazos establecidos.  
+
+### **Carranza Pérez, Jhordi Luis**
+1. El desarrollo de los módulos de reservas y clientes permitió comprender mejor la estructura y reutilización de componentes en Angular.  
+2. Aprendí la importancia de planificar correctamente la conexión entre vistas y servicios para evitar errores durante la integración.  
+3. Este sprint me ayudó a mejorar mi trabajo en equipo y a comunicar de manera más clara los avances y problemas técnicos con mis compañeros.  
+4. Logramos una versión funcional del panel administrativo, lo que demuestra el progreso y compromiso del grupo con el proyecto.  
+
+### **Janampa Gutiérrez, Jhoan Darner**
+1. Participar en el desarrollo del módulo de habitaciones me permitió reforzar mis habilidades en la creación de componentes dinámicos y validaciones reactivas.  
+2. Este sprint me ayudó a entender la importancia de la organización del código y el uso de patrones modulares para mantener la escalabilidad del proyecto.  
+3. Aprendí a trabajar con mayor coordinación en GitHub, comprendiendo la relevancia de las ramas, los commits y las *code reviews*.  
+4. Siento que el equipo ha mejorado notablemente en la distribución de tareas y la gestión del tiempo, alcanzando los objetivos técnicos propuestos.  
+
+### **Quiroz Cáceres, Adrián Alonso**
+1. Este sprint me permitió involucrarme más en la documentación técnica y en el módulo de reportes, entendiendo la relevancia de representar correctamente los datos.  
+2. Comprendí la importancia de definir estructuras de datos claras para facilitar la comunicación entre frontend y backend.  
+3. El trabajo colaborativo fue fundamental para resolver problemas de integración y mantener la coherencia entre módulos.  
+4. Este sprint reforzó mi compromiso con el proyecto y me permitió desarrollar un mejor criterio técnico para futuras fases del desarrollo.  
+
+
+# Conclusiones generales
 
 **Definición clara del alcance:**
 En esta primera fase se logró establecer qué funcionalidades cubrirá el sistema (reservas, gestión de huéspedes, servicios, reportes, seguridad), tomando como base los user stories. Esto permitió delimitar el alcance y orientar el diseño de la interfaz.
