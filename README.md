@@ -1900,7 +1900,7 @@ En esta sección se presentan el Diagrama de Clases, una representación clave d
 ### 4.8.1. Database Diagrams
 En esta sección se presenta el Diagrama de base de datos, lo cual presenta la estructura lógica del modelo de datos que sustenta el sistema HostelManager. Este diagrama describe las principales entidades del sistema, sus atributos y las relaciones entre ellas, sirviendo como guía para la implementación de la base de datos relacional.
 
-<img src="images/db.png">
+<img src="images/database.png">
 <img src="images/Authdb.png">
 <img src="images/roomsdb.png">
 <img src="images/guestsdb.png">
