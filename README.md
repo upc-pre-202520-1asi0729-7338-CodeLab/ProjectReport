@@ -2005,27 +2005,75 @@ _Component Diagram de Hostel Manager (Subscription)_
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-
 En esta sección se presentan el Diagrama de Clases, una representación clave del diseño orientado a objetos del sistema HostelManager. Este diagrama permite visualizar la estructura estática del sistema, describiendo las clases principales que lo componen, sus atributos, métodos, relaciones y jerarquías.
 
-<img src="images/guests.png">
-<img src="images/rooms.png">
-<img src="images/room-services.png">
-<img src="images/booking.png">
-<img src="images/reports.png">
-<img src="images/Auth.png">
-<img src="images/Shared.png">
+###### Figura 76
+_Class Diagram de Hostel Manager (Guest)_
 
+<img src="images/guests.png">
+
+###### Figura 77
+_Class Diagram de Hostel Manager (Room)_
+
+<img src="images/rooms.png">
+
+###### Figura 78
+_Class Diagram de Hostel Manager (Room Service)_
+
+<img src="images/room-services.png">
+
+###### Figura 79
+_Class Diagram de Hostel Manager (Booking)_
+
+<img src="images/booking.png">
+
+###### Figura 80
+_Class Diagram de Hostel Manager (Report)_
+
+<img src="images/reports.png">
+
+###### Figura 81
+_Class Diagram de Hostel Manager (Auth)_
+
+<img src="images/Auth.png">
+
+###### Figura 82
+_Class Diagram de Hostel Manager (Shared)_
+
+<img src="images/Shared.png">
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
 En esta sección se presenta el Diagrama de base de datos, lo cual presenta la estructura lógica del modelo de datos que sustenta el sistema HostelManager. Este diagrama describe las principales entidades del sistema, sus atributos y las relaciones entre ellas, sirviendo como guía para la implementación de la base de datos relacional.
 
+###### Figura 83
+_Database Diagram de Hostel Manager_
+
 <img src="images/database.png">
+
+###### Figura 84
+_Database Diagram de Hostel Manager (Auth)_
+
 <img src="images/Authdb.png">
+
+###### Figura 85
+_Database Diagram de Hostel Manager (Room)_
+
 <img src="images/roomsdb.png">
+
+###### Figura 86
+_Database Diagram de Hostel Manager (Guest)_
+
 <img src="images/guestsdb.png">
+
+###### Figura 87
+_Database Diagram de Hostel Manager (Room Service)_
+
 <img src="images/room-servicesdb.png">
+
+###### Figura 88
+_Database Diagram de Hostel Manager (Booking)_
+
 <img src="images/bookingdb.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment
@@ -2037,6 +2085,8 @@ En esta sección el equipo define las decisiones, herramientas y convenciones ne
 
 Asegurando la homogeneidad entre los integrantes del equipo, se establecen las siguientes herramientas y entornos de desarrollo del proyecto:
 
+###### Tabla 12
+_Software Development Environment Configuration_
 | Herramienta                 | Propósito                                                  | Tipo        | Referencia/Descarga                                                   |
 |-----------------------------|------------------------------------------------------------|-------------|-----------------------------------------------------------------------|
 | Visual Studio Code          | Desarrollo de la Landing Page                              | IDE         | https://code.visualstudio.com/                                        |
@@ -2316,6 +2366,8 @@ El primer sprint es un hito importante en nuestro proceso de desarrollo ágil. D
 
 El sprint planning es una reunión en la metodología ágil donde el equipo planifica las actividades del próximo sprint. Define qué trabajo se hará, cuánto tiempo tomará y quién será responsable. El objetivo es establecer un plan claro y alcanzable para el equipo, fomentando la colaboración y asegurando que todos estén alineados en cuanto a objetivos y prioridades.
 
+###### Tabla 13
+_Sprint Planning 1_
 <table  style="text-align: center;">
     <tbody>
         <tr>
@@ -2374,6 +2426,8 @@ El sprint planning es una reunión en la metodología ágil donde el equipo plan
 #### 5.2.1.2. Aspect Leaders and Collaborators
 La tabla Aspect Leaders and Collaborators es una herramienta de gestión esencial que proporciona una visión clara y concisa de las responsabilidades individuales dentro del equipo en relación con los diversos aspectos del Sprint.
 
+###### Tabla 14
+_Aspect Leaders and Collaborators 1_
 | Team Member (Last Name, First Name) | GitHub Username    | Landing Page (L/C) | Front-End Prototype (L/C) | Documentation (L/C) |
 |---|---|---|---|---|
 | Bautista Rivera, Jose Diego | Gogotes17 | C | L |  L |
@@ -2386,8 +2440,9 @@ La tabla Aspect Leaders and Collaborators es una herramienta de gestión esencia
 
 En este primer sprint, nos enfocamos en la implementación de la Landing Page del sistema, abarcando la estructura general, el diseño visual y la navegación básica. Además, se trabajó en el prototipo visual del frontend, permitiendo validar las principales funcionalidades desde la perspectiva del usuario.
 
+###### Tabla 15
+_Sprint Backlog 1_
 ### Sprint Backlog 1 - Entregables: Landing Page + Prototipo Web
-
 | # | User Story ID | Título                       | Prioridad | Story Points | Estado     |
 |---|---------------|------------------------------|-----------|--------------|------------|
 | 1 | US25          | Información en landing page  | Alta      | 3            | Hecho      |
@@ -2401,9 +2456,10 @@ En este primer sprint, nos enfocamos en la implementación de la Landing Page de
 | 9 | -             | Despliegue de Landing Page   | Alta      | 3  | Hecho      |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-
 En esta sección se explican y presentan los avances de implementación en relación con la solución desarrollada, según el alcance definido para el sprint. En esta iteración, se completó la implementación de la Landing Page en su totalidad.
 
+###### Tabla 16
+_Development Evidence for Sprint Review 1_
 | Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
 | ---------- | ------ | --------- | -------------- | ------------------- | ------------------ |
 |upc-pre-202520-1asi0729-7338-CodeLab/LandingPage|main|74c53d5|Initial commit|-|20/09/2025|
@@ -2416,8 +2472,16 @@ En esta sección se explican y presentan los avances de implementación en relac
 
 Para este sprint, se logró implementar y desplegar correctamente la Landing Page de la aplicación, cumpliendo con el diseño y los requerimientos establecidos para la plataforma web del negocio. A continuación, se presentan capturas de las vistas implementadas correspondientes a esta sección.
 
+###### Figura 89
+_landing Page de Hostel Manager 1_
 <img src="images/Lan1.jpg">
+
+###### Figura 90
+_landing Page de Hostel Manager 2_
 <img src="images/Lan2.jpg">
+
+###### Figura 91
+_landing Page de Hostel Manager 3_
 <img src="images/Lan3.jpg">
 
 
@@ -2425,8 +2489,12 @@ Para este sprint, se logró implementar y desplegar correctamente la Landing Pag
 
 En esta sección se muestra la ejecución funcional de la landing page, junto con los wireframes y mockups correspondientes al diseño del frontend. Esto permite visualizar el resultado actual y compararlo con las etapas previas de diseño para validar la coherencia entre la planificación y la implementación.
 
-<img src="images/evidenceDoc.jpg">
+###### Figura 92
+_Evidencia de desarrollo de Hostel Manager 1_
+<img src="images/evidenceDoc.png">
 
+###### Figura 93
+_Evidencia de desarrollo de Hostel Manager 2_
 <img src="images/evidenceDoc2.jpg">
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
@@ -2435,12 +2503,16 @@ Para realizar el despligue de la landing page, se utilizó la herramienta Github
 
 Landing Page: https://aqc1019.github.io
 
+###### Figura 94
+_Evidence for Sprint Review 1_
 <img src="images/evidence.png">
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Esta sección proporciona una visión detallada sobre cómo colaboró el equipo durante el desarrollo del sprint.
 
+###### Figura 95
+_Team Collaboration Insights during Sprint 1_
 <img src="images/Insig.png">
 
 # Conclusiones
@@ -2459,8 +2531,6 @@ Esta sección proporciona una visión detallada sobre cómo colaboró el equipo 
 
 ##### Despliegue exitoso del primer entregable:
 - La **Landing Page** fue publicada en un entorno accesible públicamente, lo que permite mostrar el progreso del equipo de forma tangible a los stakeholders.
-
-# Conclusiones
 
 **Definición clara del alcance:**
 En esta primera fase se logró establecer qué funcionalidades cubrirá el sistema (reservas, gestión de huéspedes, servicios, reportes, seguridad), tomando como base los user stories. Esto permitió delimitar el alcance y orientar el diseño de la interfaz.
