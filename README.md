@@ -611,6 +611,126 @@ Esta sección proporciona una visión detallada sobre cómo colaboró el equipo 
 
 <img src="images/Insig.png">
 
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+El **Sprint 2** representa la segunda fase clave en el proceso de desarrollo ágil del proyecto **Codelab**. En este período, el equipo se enfocó en la **implementación del Frontend Web Application** dirigido a los usuario administradores de hoteles, donde se desarrollaron los **bounded contexts principales** que estructuran la lógica funcional del producto.  
+El objetivo principal de este sprint fue construir la aplicación base del panel administrativo, garantizando la integración entre módulos y asegurando una experiencia de usuario coherente, fluida y funcional.
+
+| Campo | Detalle |
+|--------|----------|
+| **Sprint #** | Sprint 2 |
+| **Date** | 2025-10-01 |
+| **Time** | 10:30 PM |
+| **Location** | Microsoft Teams (Reunión virtual) |
+| **Prepared By** | Bautista Rivera, José Diego |
+| **Attendees (to planning meeting)** | Bautista Rivera, José Diego // Carranza Pérez, Jhordi Luis // Janampa Gutiérrez, Jhoan Darner // Quiroz Cáceres, Adrián Alonso |
+
+### Sprint 2 – Review Summary  
+Durante este sprint se implementó la **aplicación web**, integrando los bounded context definidos en la arquitectura del sistema. Se desarrollaron los módulos de **autenticación, gestión de habitaciones, reservas, huéspedes y reportes**, logrando una aplicación funcional con navegación completa, componentes dinámicos y comunicación con los servicios internos mediante HTTP.  
+Asimismo, se aplicaron prácticas de control de versiones y coordinación entre ramas en GitHub para mantener una integración continua y estable del código.
+
+### Sprint 2 – Retrospective Summary  
+A lo largo del Sprint 2, el equipo enfrentó nuevos desafíos relacionados con la integración de componentes y la organización del código en Angular. Sin embargo, mediante la comunicación constante y la colaboración, se logró consolidar una estructura modular y escalable.  
+Como área de mejora, se identificó la necesidad de optimizar la gestión de tiempos en la implementación de formularios complejos y validaciones. Pese a estos retos, se cumplieron los objetivos planteados dentro del periodo establecido, demostrando una mejora significativa en la coordinación técnica del equipo.
+
+## Sprint Goal & User Stories
+
+**Sprint 2 Goal**  
+Desarrollar la **Web Application del sistema**, implementando los bounded context principales (Auth, Rooms, Booking, Clientes y Reportes). El objetivo fue disponer de una plataforma funcional que permita a los administradores de hoteles gestionar reservas, huéspedes, habitaciones y reportes dentro de un entorno moderno, modular y con autenticación segura.
+
+**Sprint 2 Velocity**  
+Para este sprint se han priorizado **10 User Stories**, con un total de **48 story points**.
+
+| # | User Story ID | Título | Prioridad | Story Points | Estado |
+|---|----------------|---------|------------|---------------|---------|
+| 1 | US21 | Autenticación segura | Alta | 5 | Hecho |
+| 2 | US22 | Recuperar contraseña | Media | 3 | Hecho |
+| 3 | US23 | Gestión de roles | Media | 5 | Hecho |
+| 4 | US07 | Registrar huésped | Alta | 5 | Hecho |
+| 5 | US08 | Actualizar datos de huésped | Media | 3 | Hecho |
+| 6 | US01 | Buscar disponibilidad | Alta | 5 | Hecho |
+| 7 | US02 | Crear reserva | Alta | 5 | Hecho |
+| 8 | US09 | Check-in digital | Media | 5 | Hecho |
+| 9 | US10 | Check-out digital | Media | 4 | Hecho |
+| 10 | US19 | Reporte financiero por fechas | Alta | 8 | Hecho |
+| - | - | Documentación del Sprint | Media | 2 | Hecho |
+| - | - | Despliegue de la aplicación web | Alta | 3 | Hecho |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Auth Context (L/C) | Rooms Context (L/C) | Booking Context (L/C) | Clientes Context (L/C) | Reportes Context (L/C) | Documentation (L/C) |
+|------------------------------------|------------------|---------------------|----------------------|------------------------|-------------------------|------------------------|----------------------|
+| Bautista Rivera, José Diego | Gogotes17 | L | C | C | - | - | L |
+| Carranza Pérez, Jhordi Luis | CarPer2002 | C | C | L | L | - | C |
+| Janampa Gutiérrez, Jhoan Darner | orraiAKBDFSK | - | L | C | C | - | C |
+| Quiroz Cáceres, Adrián Alonso | Aqc1019 | - | - | - | C | L | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+En este sprint se implementaron los **bounded contexts** definidos en la arquitectura del sistema para el entorno web administrativo:
+
+- **Auth Context:**  
+  Implementación del módulo de autenticación, registro, gestión de roles y permisos de acceso mediante JWT.
+  
+- **Rooms Context:**  
+  Desarrollo del CRUD de habitaciones y validación de disponibilidad en tiempo real.
+  
+- **Booking Context:**  
+  Implementación del sistema de reservas, check-in y check-out, con estados dinámicos y validación de fechas.
+  
+- **Clientes Context:**  
+  Gestión completa de huéspedes, incluyendo registro, edición de datos y visualización de historial.
+  
+- **Reportes Context:**  
+  Generación de reportes financieros y de ocupación, con filtros por rango de fechas.
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este sprint se desarrollaron e integraron los principales módulos funcionales de la aplicación. Se estructuró la arquitectura modular en Angular, siguiendo principios de **separación por bounded contexts** y utilizando **servicios inyectables** para la comunicación con la API.
+
+| Repository | Branch | Commit ID | Commit Message | Commit Message Body | Commited on (Date) |
+|-------------|---------|------------|----------------|---------------------|--------------------|
+| upc-pre-202520-1asi0729-7338-CodeLab/WebApp | dev | 9b5c8a1 | feat: add auth module with login and register components | Implementación de autenticación segura con JWT. | 03/10/2025 |
+| upc-pre-202520-1asi0729-7338-CodeLab/WebApp | dev | b1f77d3 | feat: rooms module with CRUD and availability check | CRUD completo de habitaciones con validación de disponibilidad. | 04/10/2025 |
+| upc-pre-202520-1asi0729-7338-CodeLab/WebApp | dev | c8d4e92 | feat: booking module with check-in/out functionality | Módulo de reservas con estados dinámicos y manejo de fechas. | 06/10/2025 |
+| upc-pre-202520-1asi0729-7338-CodeLab/WebApp | dev | e32a6b0 | feat: clients module for guests management | Gestión completa de huéspedes con formularios reactivos. | 07/10/2025 |
+| upc-pre-202520-1asi0729-7338-CodeLab/WebApp | dev | f5d7b34 | feat: reports module for financial and occupancy data | Implementación de reportes con filtros y totales. | 09/10/2025 |
+
+## 5.2.2.5. Execution Evidence for Sprint Review
+
+La aplicación web fue ejecutada exitosamente en entorno local y desplegada en producción. Los módulos implementados se integraron dentro de una interfaz unificada para los administradores.  
+A continuación, se presentan capturas de las vistas funcionales desarrolladas:
+
+- **Pantalla de Login y Registro**
+- **Gestión de Habitaciones (CRUD y Disponibilidad)**
+- **Reservas: creación, check-in y check-out**
+- **Gestión de Huéspedes**
+- **Reportes Financieros**
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Se documentaron los endpoints consumidos desde el frontend para cada bounded context, asegurando la trazabilidad con el backend.  
+También se incluyeron los **wireframes y mockups finales** de la aplicación web administrativa, comparando la planificación inicial con el resultado implementado, evidenciando la fidelidad visual y funcional del diseño.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El despliegue de la aplicación web se realizó utilizando **Vercel**, por su facilidad de integración con repositorios GitHub y su soporte para frameworks modernos como Angular.  
+Cada push a la rama principal (`main`) activa automáticamente el pipeline de CI/CD, desplegando la versión actualizada del sistema.
+
+**Web Application (Admin Panel):**  
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante este segundo sprint, el equipo trabajó de forma coordinada mediante **GitHub Projects** y **Microsoft Teams**, asignando tareas específicas por módulo.  
+Se implementaron revisiones de código (code reviews) para asegurar la calidad técnica y coherencia del proyecto.  
+El trabajo colaborativo permitió integrar los bounded contexts sin conflictos y garantizar una base sólida para los próximos sprints, donde se abordará la conexión completa con el backend y las optimizaciones de rendimiento.
+
+
+
 # Conclusiones
 
 ##### Establecimiento de la base visual del producto:
