@@ -1887,7 +1887,14 @@ En esta sección se presenta el Software Architecture Components Diagrams, diagr
 
 En esta sección se presentan el Diagrama de Clases, una representación clave del diseño orientado a objetos del sistema HostelManager. Este diagrama permite visualizar la estructura estática del sistema, describiendo las clases principales que lo componen, sus atributos, métodos, relaciones y jerarquías.
 
-<img src="images/db.png">
+<img src="images/guests.png">
+<img src="images/rooms.png">
+<img src="images/room-services.png">
+<img src="images/booking.png">
+<img src="images/reports.png">
+<img src="images/Auth.png">
+<img src="images/Shared.png">
+
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams
