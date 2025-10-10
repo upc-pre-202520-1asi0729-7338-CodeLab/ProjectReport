@@ -24,7 +24,7 @@
 # Registro de Versiones del Informe
 | Versión | Fecha      | Autor | Descripción de modificación|
 |---------|------------|-------|----------------------------|
-| V1.0    | 01/09/2025 | Adrian Quiroz | Creación del repositorio   |
+| V1.0    | 01/09/2025 | Adrian Quiroz Jhoan Janampa  | Creación del repositorio   |
 | V1.1    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo I|
 | V1.2    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo II|
 | V1.3    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo III|
