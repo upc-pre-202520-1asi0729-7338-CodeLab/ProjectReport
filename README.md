@@ -702,26 +702,26 @@ b) Preguntas Específicas
 - ¿Qué tanto confiarías en un sistema digital que centraliza todo (reserva, pago y comunicación con el hotel) en un solo lugar?
 
 ### 2.2.2. Registro de entrevistas
-Segmento Objetivo 1: Administrador/a
+**Segmento Objetivo 1: Administrador/a**
 
 Entrevista N1:
 
 * **Nombre y apellidos:** Jakeline Gutierrez 
   * **Edad:** 36 años
   * **Departamento:** Ayacucho
-  * **Ocupación:** Administradora de hostel <br><br>
+  * **Ocupación:** Administradora de hostel <br>
   * **Tiempo de Entrevista:** 3 minutos con 02 segundos
   * **Inicio de Entrevista:** 0:00
   * **Final de Entrevista:** 3:02
 
+###### Figura 2
+_Captura de pantalla de la primera entrevista realizada al primer segmento objetivo de Hostel Manager_
 <img src="images/Entrevista1.png">
-
 
 * **Resumen De Entrevista**
 
 Jalkelin explicó que administra el hostal Nogales en Ayacucho con 15 habitaciones. Maneja las reservas manualmente en un cuaderno y coordina algunas por WhatsApp. Los métodos de pago más comunes son efectivo y transferencias por Yape/Plin. Nunca ha usado un sistema digital de gestión.
 Mencionó que los problemas principales son las reservas duplicadas y la falta de control de pagos cuando los clientes llegan por diferentes canales. Dedica entre 3 y 4 horas diarias a la gestión, y desearía reducirlo a menos de 1 hora con ayuda de un sistema digital. Considera críticas funciones como control de habitaciones, facturación digital, integración con pagos con tarjeta y reportes de temporadas altas/bajas. Estaría dispuesta a pagar aproximadamente S/100 mensuales si el sistema realmente le ahorra tiempo y pérdidas.
-
 
 **Link:** https://url-shortener.me/4UMU
 
@@ -732,21 +732,21 @@ Entrevista N2:
 * **Nombre y apellidos:** Heydi Janampa Silva
   * **Edad:** 35 años
   * **Departamento:** Ayacucho
-  * **Ocupación:** Administradora de hostel <br><br>
+  * **Ocupación:** Administradora de hostel <br>
   * **Tiempo de Entrevista:** 4 minutos con 37 segundos
   * **Inicio de Entrevista:** 0:00
   * **Final de Entrevista:** 4:37 min
 
+###### Figura 3
+_Captura de pantalla de la segunda entrevista realizada al primer segmento objetivo de Hostel Manager_
 <img src="images/Entrevista2.jpg">
 
 
 * **Resumen De Entrevista**
 
-Resumen: Heydi explicó que administra el hospedaje Sueño Dorado en Ayacucho, el cual cuenta con 25 habitaciones. Actualmente maneja las reservas de manera manual en un cuaderno y también coordina algunas a través de WhatsApp. Los métodos de pago más comunes entre sus huéspedes son efectivo y transferencias por Yape/Plin. Comentó que nunca ha utilizado un sistema digital de gestión.
+Heydi explicó que administra el hospedaje Sueño Dorado en Ayacucho, el cual cuenta con 25 habitaciones. Actualmente maneja las reservas de manera manual en un cuaderno y también coordina algunas a través de WhatsApp. Los métodos de pago más comunes entre sus huéspedes son efectivo y transferencias por Yape/Plin. Comentó que nunca ha utilizado un sistema digital de gestión.
 Entre los principales problemas mencionó las reservas duplicadas y la falta de control en los pagos, especialmente cuando los clientes llegan por diferentes canales como Booking o redes sociales. Dijo que dedica entre 3 y 4 horas diarias a la gestión administrativa, y le gustaría reducir ese tiempo a menos de 1 hora con ayuda de un sistema digital.
 Respecto a las funciones que considera más importantes, destacó el control de habitaciones, la facturación digital, la integración con pagos con tarjeta y los reportes de temporadas altas/bajas para planificar mejor sus precios. Aunque no supo precisar cuánto estaría dispuesta a pagar por un sistema de este tipo, aseguró que sí está interesada en implementarlo si le ofrece una solución práctica y confiable para mejorar la administración de su hospedaje.
-
-
 
 **Link:** https://acortar.link/gFQKlK
 
@@ -757,23 +757,22 @@ Entrevista N3:
 * **Nombre y apellidos:** José Luis Carranza Gastelo
   * **Edad:** 35 años
   * **Departamento:** Cajamarca
-  * **Ocupación:** Administrador de Hotel<br><br>
+  * **Ocupación:** Administrador de Hotel<br>
   * **Tiempo de Entrevista:** 6 minutos con 20 segundos
   * **Inicio de Entrevista:** 0:00
   * **Final de Entrevista:** 6:20 min
 
+###### Figura 4
+_Captura de pantalla de la tercera entrevista realizada al primer segmento objetivo de Hostel Manager_
 <img src="images/Entrevista3.jpg">
-
 
 * **Resumen De Entrevista**
 
-Resumen: José Carranza menciona que es dueño y administrador de un Hotel de 15 habitaciones llamado “Hotel Cutervo” en la ciudad de Cutervo en Cajamarca. Menciona que las reservas y la gestión general del hotel las hace mediante un cuaderno de notas y redes sociales como Whatsapp, los métodos de pago que usa son las billeteras digitales como Yape.
+José Carranza menciona que es dueño y administrador de un Hotel de 15 habitaciones llamado “Hotel Cutervo” en la ciudad de Cutervo en Cajamarca. Menciona que las reservas y la gestión general del hotel las hace mediante un cuaderno de notas y redes sociales como Whatsapp, los métodos de pago que usa son las billeteras digitales como Yape.
 
 Menciona que le es muy complicado administrar un hotel usando solamente métodos manuales, esto muchas veces le ha traído problemas ya que no puede llevar una buena contabilidad cuando trabaja. En términos generales, le toma mucho tiempo administrar y le gustaría que fuese todo más digitalizado para poder reducir costos y tiempos.
 
 Las funcionalidades que él menciona gustaría que se implementen es poder realizar reservas de manera digital, el cual le ayudaría a llevar un control de la cantidad de huéspedes que se hospedan, fechas de entrada y salida más precisas. Le gustaría también una funcionalidad que le permita generar reportes detallados y estadísticas por temporadas, para poder así administrar de una mejor manera su hotel y evitar contratiempos.
-
-
 
 **Link:** https://acortar.link/HERdbK
 
@@ -784,27 +783,24 @@ Entrevista N4:
 * **Nombre y apellidos:** Milagro Del Castillo alvera
   * **Edad:** 22 años
   * **Departamento:**  Cusco
-  * **Ocupación:** Administrador de Hotel<br><br>
+  * **Ocupación:** Administrador de Hotel<br>
   * **Tiempo de Entrevista:** 4 minutos con 52 segundos
   * **Inicio de Entrevista:** 0:00
   * **Final de Entrevista:** 4:52 min
 
+###### Figura 5
+_Captura de pantalla de la cuarta entrevista realizada al primer segmento objetivo de Hostel Manager_
 <img src="images/Entrevista4.jpg">
-
 
 * **Resumen De Entrevista**
 
-Resumen: Milagro trabaja en un hotel ubicado en Megantoni, Cusco, una provincia algo alejada de las principales ciudades. El hotel, llamado Max, cuenta con 18 habitaciones. Actualmente, Milagro lleva el registro de manera manual, lo cual le consume tiempo, especialmente al calcular el monto total de las ganancias. Nos comenta que le gustaría contar con un programa que le facilite este proceso, además de permitirle generar reportes sobre la cantidad de personas que ingresan al hotel según la temporada. Ella estaría dispuesta a pagar por este servicio si le ayuda a reducir el tiempo que dedica al registro y a la contabilización de las ganancias.
-
+Milagro trabaja en un hotel ubicado en Megantoni, Cusco, una provincia algo alejada de las principales ciudades. El hotel, llamado Max, cuenta con 18 habitaciones. Actualmente, Milagro lleva el registro de manera manual, lo cual le consume tiempo, especialmente al calcular el monto total de las ganancias. Nos comenta que le gustaría contar con un programa que le facilite este proceso, además de permitirle generar reportes sobre la cantidad de personas que ingresan al hotel según la temporada. Ella estaría dispuesta a pagar por este servicio si le ayuda a reducir el tiempo que dedica al registro y a la contabilización de las ganancias.
 
 **Link:** https://acortar.link/TrBNLa
 
-
-
 ---
 
-Segmento Objetivo 2: Huesped de Hotel
-
+**Segmento Objetivo 2: Huesped de Hotel**
 
 Entrevista N5:
 
@@ -816,17 +812,17 @@ Entrevista N5:
   * **Inicio de Entrevista:** 0:00
   * **Final de Entrevista:** 6:25 min
 
+###### Figura 6
+_Captura de pantalla de la primera entrevista realizada al segundo segmento objetivo de Hostel Manager_
 <img src="images/Entrevista5.jpg">
-
 
 * **Resumen De Entrevista**
 
-Resumen: María Yolanda explica que suele viajar en épocas de vacaciones o temporadas variadas, busca hoteles mediante redes sociales y mediante recomendaciones de amistades.
+María Yolanda explica que suele viajar en épocas de vacaciones o temporadas variadas, busca hoteles mediante redes sociales y mediante recomendaciones de amistades.
 
 Menciona que la principal complicación que tiene es que se le es muy complicado hacer una reserva en el momento, muchas veces ha tenido problemas con ello o al momento de hacer el checking.
 
 Le gustaría que se implementaran funcionalidades tales como poder realizar reservas desde la comodidad de su casa, para así evitar largas esperas y costos innecesarios. En general que todo sea más digital y automatizado.
-
 
 **Link:** https://acortar.link/kpEQW0
 
@@ -842,25 +838,21 @@ Entrevista N6:
   * **Inicio de Entrevista:** 0:00
   * **Final de Entrevista:** 7:41 min
 
+###### Figura 7
+_Captura de pantalla de la segunda entrevista realizada al segundo segmento objetivo de Hostel Manager_
 <img src="images/Entrevista6.jpg">
-
 
 * **Resumen De Entrevista**
 
-Resumen: Franklin explicó que mayormente viaja por turismos y que según él busca hoteles según la ubicación y recomendaciones que encuentra en las redes, mayormente busca hoteles desde su celular y laptop.
+Franklin explicó que mayormente viaja por turismos y que según él busca hoteles según la ubicación y recomendaciones que encuentra en las redes, mayormente busca hoteles desde su celular y laptop.
 
 Según franklin le gusta que los hoteles higiénicos, además la hospitalidad del hotel. Mayormente franklin busca los hospedajes por las recomendaciones que encuentre en su página, además revisa todas las redes sociales que tiene el hotel.
 
 Nos comentó que si le gustaría tener un sistema que le facilite las reservas, también quiere saber los detalles de la reserva y tener el contacto con la administradora del hotel para saber si por algún inconveniente le cancelan la reserva .
 
-
-
 **Link:** https://acortar.link/gpGcJY
 
-
-
 ### 2.2.3. Análisis de entrevistas
-
 
 ### Análisis de Entrevistas: Administradores de Hoteles
 
@@ -939,20 +931,23 @@ En esta sección presentamos la construcción de las fichas de User Persona para
 
 #### Segmento Objetivo: Administrador/a
 
+###### Figura 8
+_User persona de nuestro segmento de administradores de hotel_
 <img src="images/UserPerson1 (1).png">
 
 #### Segmento Objetivo: Huesped
 
+###### Figura 9
+_User persona de nuestro segmento de huéspedes de hotel_
 <img src="images/UserPerson2 (1).png">
 
 ### 2.3.2. User Task Matrix
-
 El User Task Matrix nos permite identificar las acciones clave que realizan los administradores de hostales y los huéspedes durante su experiencia de gestión u hospedaje, sin suponer aún la existencia de una solución digital. A través de esta matriz, analizamos cada tarea según su frecuencia y nivel de importancia, lo cual nos permite priorizar funcionalidades en Hostel Manager que respondan directamente a los procesos más críticos y frecuentes para cada segmento, asegurando así un diseño funcional alineado con sus necesidades reales.
-
-
 
 #### Segmento Objetivo: Administrador/a
 
+###### Tabla 5
+_User Task Matrix de nuestro segmento de administradores de hotel_
 | Actividades                                               | Frecuencia | Importancia |
 |-----------------------------------------------------------|------------|-------------|
 | Gestionar reservas y disponibilidad de habitaciones       | Alta       | Alta        |
@@ -967,6 +962,8 @@ El User Task Matrix nos permite identificar las acciones clave que realizan los 
 
 #### Segmento Objetivo: Huesped
 
+###### Tabla 6
+_User Task Matrix de nuestro segmento de huéspedes de hotel_
 | Actividades                                                          | Frecuencia | Importancia |
 |----------------------------------------------------------------------|------------|-------------|
 | Buscar y comparar hostales/hoteles en la web                         | Alta       | Alta        |
@@ -979,22 +976,22 @@ El User Task Matrix nos permite identificar las acciones clave que realizan los 
 | Dejar reseña o compartir experiencia                                 | Baja       | Media       |
 | Descargar o guardar factura digital para sus gastos                  | Baja       | Alta        |
 
-
-
 ### 2.3.3. User Journey Mapping
-
 Aquí se presentan los User Journey Maps para cada uno de nuestros User Personas, mostrando el recorrido actual que realizan tanto los administradores como los huéspedes al gestionar o acceder a servicios de un hostal. Analizamos cada etapa del proceso, desde la reserva hasta la solicitud de servicios y el check-out, identificando puntos de fricción y oportunidades de mejora. Esta visualización nos permite diseñar flujos más eficientes y una experiencia centrada en el usuario.
 
-### Segmento Objetivo : Productor
+### Segmento Objetivo : Administrador
 
+###### Figura 10
+_User Journey Mapping de nuestro segmento de administradores de hotel_
 <img src="images/JourneyProductor.png">
 
-### Segmento Objetivo : Huesped
+### Segmento Objetivo : Huésped
 
+###### Figura 11
+_User Journey Mapping de nuestro segmento de huéspedes de hotel_
 <img src="images/JourneyHuesped.png">
 
 ### 2.3.4. Empathy Mapping
-
 En esta sección se describen el proceso y los resultados de los Empathy Maps desarrollados para cada User Persona definida previamente. A partir de la información recopilada en entrevistas y análisis del contexto, organizamos las observaciones en seis áreas clave:
 
 - ¿Qué ve?
@@ -1013,27 +1010,58 @@ Luego, identificamos los principales Pains (frustraciones y obstáculos) y Gains
 
 ### Segmento Objetivo : Productor
 
+###### Figura 12
+_Empathy Mapping de nuestro segmento de administradores de hotel_
 <img src="images/EmpathyProductor.png">
 
 ### Segmento Objetivo : Huesped
 
+###### Figura 13
+_Empathy Mapping de nuestro segmento de huéspedes de hotel_
 <img src="images/EmpathyHuesped.png">
 
 ## 2.4. Big Picture EventStorming
 
 En esta sección se realiza el Event Storming, una técnica colaborativa y visual utilizada para explorar y modelar los procesos de negocio de nuestro sistema propuesto. A través de la identificación y discusión de los eventos clave que ocurren en el dominio, se busca comprender de manera integral cómo los diferentes componentes interactúan entre sí, las reglas que los gobiernan y las posibles áreas de mejora.
 
+**Step 1:Unstructured Exploration**
+
+EventStorming comienza con una lluvia de ideas de los eventos del dominio relacionados con el dominio empresarial que se está explorando, en este caso sobre hoteleria. Un evento de dominio es algo interesante que ha sucedido en el negocio. Es importante formular eventos de dominio en tiempo pasado; puesto que se están describiendo cosas que ya han sucedido.
+
+###### Figura 14
+_Primer paso del Big Picture EventStorming_
 <img src="images/step1.png">
 
+**Step 2: Timelines**
+
+A continuación, se revisan los eventos de dominio generados y los organizamos en el orden en que ocurren en el dominio empresarial. Los eventos deben comenzar con el happy path:el flujo que describe un escenario empresarial exitoso.
+Una vez que se realiza el happy path, se pueden agregar escenarios alternativos.
+
+###### Figura 15
+_Segundo paso del Big Picture EventStorming_
 <img src="images/step2.png">
 
+**Step 3: Paint Points**
+
+Una vez que tengamos los eventos organizados en una línea de tiempo, este paso es para identificar puntos en el proceso que requieren atención. Estos pueden ser cuellos de botella, pasos manuales que requieren automatización, documentación faltante o conocimiento de dominio faltante.
+
+###### Figura 16
+_Tercer paso del Big Picture EventStorming_
 <img src="images/step3.png">
 
+**Step 4: Pivotal Points**
+
+Una vez que tengamos una línea de tiempo de eventos aumentada con paint points, se buscó eventos comerciales importantes que indiquen un cambio en el contexto o la fase. Estos se denominan eventos fundamentales y están marcados con una barra vertical que divide los eventos antes y después del evento fundamental.
+
+###### Figura 17
+_Cuarto paso del Big Picture EventStorming_
+<img src="images/step4.png">
 
 ## 2.5. Ubiquitous Language
-
 En esta sección presentamos el glosario de Lenguaje Ubicuo, conformado por los términos clave del dominio de la gestión hotelera independiente utilizados en Hostel Manager. Cada término está escrito en inglés, con su equivalente en español entre paréntesis, y acompañado de una definición clara y específica. Este glosario busca garantizar que todos los miembros del equipo —desde desarrolladores hasta stakeholders— compartan un entendimiento común y sin ambigüedades, facilitando así la comunicación efectiva durante todo el ciclo de vida del proyecto. El Lenguaje Ubicuo se enfoca exclusivamente en conceptos del dominio del negocio, excluyendo jerga técnica de ingeniería de software.
 
+###### Tabla 7
+_Listado del lenguaje ubicuo empleado en Hostel Manager por el equipo de trabajo de Codelab_
 | **Term**                                   | **Definición**                                                                                                                                                                |
 | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Administrator**                          | Persona encargada de gestionar un hostal o pequeño hotel. Es el usuario principal de la plataforma Hostel Manager. Puede ser el propietario o un trabajador asignado.         |
@@ -1042,7 +1070,7 @@ En esta sección presentamos el glosario de Lenguaje Ubicuo, conformado por los 
 | **Check-in / Check-out**                   | Proceso de entrada/salida del huésped. Hostel Manager permite automatizar este flujo con formularios digitales, notificaciones y validación de identidad.                     |
 | **Overbooking**                            | Error en la gestión de reservas que genera múltiples asignaciones para una misma habitación en el mismo periodo. Uno de los principales problemas que resuelve la plataforma. |
 | **Availability**                           | Estado de ocupación de las habitaciones. La plataforma gestiona esta información en tiempo real para evitar errores.                                                          |
-| **Additional Services**                    | Productos o servicios complementarios al hospedaje, como desayuno, lavandería, tours, transporte, etc. También se gestionan desde la plataforma.                              |
+| **Room Services**                    		 | Productos o servicios complementarios al hospedaje, como desayuno, lavandería, tours, transporte, etc. También se gestionan desde la plataforma.                              |
 | **Payment Gateway**                        | Sistema que permite recibir pagos de forma electrónica, segura y eficiente. Se integra con Hostel Manager para transacciones online o presenciales.                           |
 | **MRR (Monthly Recurring Revenue)**        | Ingreso mensual recurrente derivado del modelo de suscripción de Hostel Manager.                                                                                              |
 | **Churn Rate**                             | Porcentaje de clientes que cancelan su suscripción en un periodo determinado. Indicador clave de retención.                                                                   |
@@ -1052,12 +1080,6 @@ En esta sección presentamos el glosario de Lenguaje Ubicuo, conformado por los 
 | **Intuitive**                              | Diseño de interfaz amigable y fácil de usar, que requiere poca o ninguna capacitación técnica para operar.                                                                    |
 | **Automation**                             | Eliminación de tareas manuales mediante procesos digitales que se ejecutan de forma autónoma o programada.                                                                    |
 | **Automated Notifications**                | Mensajes enviados automáticamente al huésped o administrador para confirmar reservas, recordar pagos, etc.                                                                    |
-| **Reviews/Ratings**                        | Comentarios dejados por los huéspedes después de su estadía, visibles en el módulo de retroalimentación.                                                                      |
-| **Independent Hostel/Lodging**             | Establecimiento de alojamiento pequeño o mediano, que no forma parte de una cadena hotelera. Público objetivo principal de Hostel Manager.                                    |
-| **Online Check-in**                        | Proceso digital que permite al huésped registrarse antes de llegar, agilizando su ingreso al hostal.                                                                          |
-| **FAQs**                                   | Sección de preguntas frecuentes que ayuda al administrador a resolver dudas sin necesidad de contactar soporte.                                                               |
-| **CRM (Customer Relationship Management)** | Sistema que gestiona la relación con clientes, usado en Hostel Manager para seguimiento de huéspedes y administración de contactos.                                           |
-
 
 # Capítulo III: Requirements Specification
 
@@ -1065,6 +1087,8 @@ En esta sección presentamos el glosario de Lenguaje Ubicuo, conformado por los 
 
 ### Epics
 
+###### Tabla 8
+_Listado de epicas_
 <table>
   <thead>
     <tr>
@@ -1089,6 +1113,8 @@ En esta sección presentamos el glosario de Lenguaje Ubicuo, conformado por los 
 
 > Cada historia incluye dos escenarios de aceptación en formato **Given–When–Then**.
 
+###### Tabla 9
+_Listado de historias de usuario_
 <table>
   <thead>
     <tr>
