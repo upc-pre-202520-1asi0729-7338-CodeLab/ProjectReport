@@ -2628,10 +2628,10 @@ También se incluyeron los **wireframes y mockups finales** de la aplicación we
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-El despliegue de la aplicación web se realizó utilizando **Vercel**, por su facilidad de integración con repositorios GitHub y su soporte para frameworks modernos como Angular.  
+El despliegue de la aplicación web se realizó utilizando **Firebase**, por su facilidad de integración con repositorios GitHub y su soporte para frameworks modernos como Angular.  
 Cada push a la rama principal (`main`) activa automáticamente el pipeline de CI/CD, desplegando la versión actualizada del sistema.
 
-**Web Application (Admin Panel):**  
+**Web Application (Admin Panel):** https://hostel-manager-9eb60.web.app/home
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
