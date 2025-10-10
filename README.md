@@ -1709,10 +1709,12 @@ La wireframe de la landing page de HostelManager presenta una estructura clara y
 
 ###### Figura 24
 _Wireframe de la Landing Page de Hostel Manager(Mobile)_
+
 <img src="images/LandingPage Wireframes.png" style="width: 400px; height: auto;">
 
 ###### Figura 25
 _Wireframe de la Landing Page de Hostel Manager(Desktop)_
+
 <img src="images/DesktopLandingPage Wireframes.png" style="width: 400px; height: auto;">
 
 ### 4.3.2. Landing Page Mock-up
@@ -1720,10 +1722,12 @@ El mock-up de alta fidelidad incorpora todos los elementos de la wireframe con e
 
 ###### Figura 26
 _Mock-up de la Landing Page de Hostel Manager(Mobile)_
+
 <img src="images/Landing-Page-Mock-up.png" style="width: 400px; height: auto;">
 
 ###### Figura 27
 _Mock-up de la Landing Page de Hostel Manager(Desktop)_
+
 <img src="images/Desktop-Landing-Page-Mock-up.png" style="width: 400px; height: auto;">
 
 ## 4.4. Web Applications UX/UI Design
