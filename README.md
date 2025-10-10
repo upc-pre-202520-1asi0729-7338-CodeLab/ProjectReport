@@ -1737,14 +1737,12 @@ _Mock-up de la Landing Page de Hostel Manager(Desktop)_
 ## 4.4. Web Applications UX/UI Design
 
 ### 4.4.1. Web Applications Wireframes
-
-<img src="images/WireRegistro.jpg">
-
-<img src="images/WireHuespedes.jpg">
-
-<img src="images/WireHuesped.jpg">
-
-<img src="images/WireSuscripción.jpg">
+###### Figura 28
+_Wireframes de la aplicación web de Hostel Manager(Desktop)_
+<img src="images/wireframe1.png">
+<img src="images/wireframe2.png">
+<img src="images/wireframe3.png">
+<img src="images/wireframe4.png">
 
 Figma: https://www.figma.com/design/YmmcLGjrEreHZClnFjWuHQ/Hostel-Manager---Landing-Page?node-id=8-3123&t=5Mu3ryN8G2CZrJv9-1
 
