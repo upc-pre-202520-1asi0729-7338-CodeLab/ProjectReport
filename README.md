@@ -1738,10 +1738,16 @@ _Mock-up de la Landing Page de Hostel Manager(Desktop)_
 
 ### 4.4.1. Web Applications Wireframes
 ###### Figura 28
-_Wireframes de la aplicación web de Hostel Manager(Desktop)_
+_Wireframes de la aplicación web de Hostel Manager(Desktop) 1_
 <img src="images/wireframe1.png">
+###### Figura 29
+_Wireframes de la aplicación web de Hostel Manager(Desktop) 2_
 <img src="images/wireframe2.png">
+###### Figura 30
+_Wireframes de la aplicación web de Hostel Manager(Desktop) 3_
 <img src="images/wireframe3.png">
+###### Figura 31
+_Wireframes de la aplicación web de Hostel Manager(Desktop) 4_
 <img src="images/wireframe4.png">
 
 Figma: https://www.figma.com/design/YmmcLGjrEreHZClnFjWuHQ/Hostel-Manager---Landing-Page?node-id=8-3123&t=5Mu3ryN8G2CZrJv9-1
@@ -1751,43 +1757,47 @@ En esta sección se presentan los Wireflow Diagrams desarrollados para una aplic
 
 Estos wireflows permiten visualizar tanto la estructura básica de las pantallas como la navegación entre vistas, mostrando cómo los usuarios interactúan con el sistema a través de distintas funcionalidades.
 
-Se diseñaron wireflows específicos para las siguientes acciones principales de la aplicación:
-
-- Inicio de Sesión: Representa el flujo desde la pantalla de acceso hasta la validación de credenciales y el ingreso exitoso al sistema.
-
-- Editar: Muestra cómo un usuario puede acceder a un registro existente y modificar su contenido.
-
-- Buscar: Ilustra la interacción con el motor de búsqueda y visualización de resultados.
-
-- Crear Huésped: Describe el proceso completo para agregar un nuevo huésped al sistema, desde la apertura del formulario hasta la confirmación.
-
-- Cancelar Suscripción: Detalla los pasos necesarios para dar de baja una suscripción, incluyendo confirmaciones.
+Se diseñaron wireflows específicos para las siguientes acciones principales de la aplicación.
 
 Estos wireflows sirvieron como base para validar los flujos de navegación, identificar mejoras en la experiencia de usuario y alinear al equipo de diseño y desarrollo en torno a una visión compartida del funcionamiento de la aplicación.
 
-#### Inicio de Sesión:
+###### Figura 32
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 1_
+<img src="images/wireflow1.png">
 
-<img src="images/Aut.jpg">
+###### Figura 33
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 2_
+<img src="images/wireflow2.png">
 
-#### Agregar Huesped
+###### Figura 34
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 3_
+<img src="images/wireflow3.png">
 
-<img src="images/agregarHuesped.jpg">
+###### Figura 35
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 4_
+<img src="images/wireflow4.png">
 
-#### Editar Huesped  
+###### Figura 36
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 5_
+<img src="images/wireflow5.png">
 
-<img src="images/EditarHuesped.jpg">
+###### Figura 37
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 6_
+<img src="images/wireflow6.png">
 
-#### Buscar Huesped  
+###### Figura 38
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 7_
+<img src="images/wireflow7.png">
 
-<img src="images/BuscarHuesped.jpg">
+###### Figura 39
+_Wireframes de la aplicación web de Hostel Manager(Desktop) 8_
+<img src="images/wireflow8.png">
 
-#### Cancelar Suscripción 
-
-<img src="images/CancelarSuscripcion.jpg">
-
+###### Figura 40
+_Wireflow de la aplicación web de Hostel Manager(Desktop) 9_
+<img src="images/wireflow9.png">
 
 ### 4.4.2. Web Applications Mock-ups
-
 Los mock-ups de alta fidelidad implementan todos los elementos de los wireframes con el diseño visual completo:
 
 **Características visuales destacadas:**
@@ -1815,15 +1825,21 @@ Los mock-ups de alta fidelidad implementan todos los elementos de los wireframes
 - Notificaciones push para actualizaciones de estado
 - Interfaces adaptadas para acceso desde dispositivo del huésped
 
-<img src="images/Mock1.jpg">
+###### Figura 41
+_Mock-ups de la aplicación web de Hostel Manager(Desktop) 1_
+<img src="images/Mock-up1.png">
 
-<img src="images/Mock2.jpg">
+###### Figura 42
+_Mock-ups de la aplicación web de Hostel Manager(Desktop) 2_
+<img src="images/Mock-up2.png">
 
-<img src="images/Mock3.jpg">
+###### Figura 43
+_Mock-ups de la aplicación web de Hostel Manager(Desktop) 3_
+<img src="images/Mock-up3.png">
 
-<img src="images/Mock4.jpg">
-
-<img src="images/Mock5.jpg">
+###### Figura 44
+_Mock-ups de la aplicación web de Hostel Manager(Desktop) 4_
+<img src="images/Mock-up4.png">
 
 Figma: https://www.figma.com/design/YmmcLGjrEreHZClnFjWuHQ/Hostel-Manager---Landing-Page?node-id=8-3123&t=5Mu3ryN8G2CZrJv9-1
 
@@ -1831,56 +1847,161 @@ Figma: https://www.figma.com/design/YmmcLGjrEreHZClnFjWuHQ/Hostel-Manager---Land
 
 En esta sección se presentan los User Flows (flujos de usuario) diseñados para representar las rutas que sigue un usuario dentro de la aplicación web para alcanzar objetivos específicos. Un User Flow es un diagrama que ilustra, de forma lógica y secuencial, cómo interactúa un usuario con el sistema, desde el punto de entrada hasta la finalización de una tarea.
 
+###### Figura 45
+_User Flow de la aplicación web de Hostel Manager(Desktop) 1_
+<img src="images/user-flow1.png">
 
-#### Inicio de Sesión:
+###### Figura 46
+_User Flow de la aplicación web de Hostel Manager(Desktop) 2_
+<img src="images/user-flow2.png">
 
-<img src="images/Aut.jpg">
+###### Figura 47
+_User Flow de la aplicación web de Hostel Manager(Desktop) 3_
+<img src="images/user-flow3.png">
 
-#### Agregar Huesped
+###### Figura 48
+_User Flow de la aplicación web de Hostel Manager(Desktop) 4_
+<img src="images/user-flow4.png">
 
-<img src="images/agregarHuesped.jpg">
+###### Figura 49
+_User Flow de la aplicación web de Hostel Manager(Desktop) 5_
+<img src="images/user-flow5.png">
 
-#### Editar Huesped  
+###### Figura 50
+_User Flow de la aplicación web de Hostel Manager(Desktop) 6_
+<img src="images/user-flow6.png">
 
-<img src="images/EditarHuesped.jpg">
+###### Figura 51
+_User Flow de la aplicación web de Hostel Manager(Desktop) 7_
+<img src="images/user-flow7.png">
 
-#### Buscar Huesped  
+###### Figura 52
+_User Flow de la aplicación web de Hostel Manager(Desktop) 8_
+<img src="images/user-flow8.png">
 
-<img src="images/BuscarHuesped.jpg">
-
-#### Cancelar Suscripción 
-
-<img src="images/CancelarSuscripcion.jpg">
+###### Figura 53
+_User Flow de la aplicación web de Hostel Manager(Desktop) 9_
+<img src="images/user-flow9.png">
 
 ## 4.5. Web Applications Prototyping
-
 En esta sección se aborda el proceso de prototipado aplicado al desarrollo de aplicaciones web. El prototyping consiste en crear una representación interactiva del producto, que permite simular su funcionamiento antes de pasar a la etapa de desarrollo final.
 
-<img src="images/Proto.jpg">
+###### Figura 54
+_Prototyping de la aplicación web de Hostel Manager(Desktop)_
+<img src="images/Proto.png">
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
 
-<img src="images/Design-Level-Event-Storming.png">
+###### Figura 55
+_Design-Level EventStorming de Hostel Manager 1_
+<img src="images/step5.png">
+
+###### Figura 56
+_Design-Level EventStorming de Hostel Manager 2_
+<img src="images/step6.png">
+
+###### Figura 57
+_Design-Level EventStorming de Hostel Manager 3_
+<img src="images/step7.png">
+
+###### Figura 58
+_Design-Level EventStorming de Hostel Manager 4_
+<img src="images/step8.png">
+
+###### Figura 59
+_Design-Level EventStorming de Hostel Manager 5_
+<img src="images/step9.png">
+
+###### Figura 60
+_Design-Level EventStorming de Hostel Manager 6_
+<img src="images/step10.png">
 
 ### 4.6.2. Software Architecture Context Diagram
-
 En esta sección se presenta el Software Architecture Context Diagram, un diagrama que proporciona una visión general del sistema en su contexto de operación. Su objetivo principal es mostrar cómo el sistema interactúa con los actores externos, como otros sistemas, usuarios y servicios. Este diagrama es fundamental para comprender el entorno en el que el sistema se despliega y cómo se conecta con componentes externos.
 
-<img src="images/context.png">
+###### Figura 60
+_Context Diagram de Hostel Manager_
 
+<img src="images/context.png">
 
 ### 4.6.3. Software Architecture Container Diagrams
 
 En esta sección se presenta el Software Architecture Container Diagrams, diagrama que representa los principales contenedores del sistema y cómo se comunican entre sí. Un contenedor, en este contexto, hace referencia a una unidad de ejecución que encapsula un conjunto de funcionalidades del sistema. Estos contenedores pueden ser aplicaciones, bases de datos, servicios o cualquier otro componente que ejecute código o almacene datos de manera independiente.
 
-<img src="images/container.png">
+###### Figura 61
+_Container Diagram de Hostel Manager (Guest)_
+
+<img src="images/guest-container.png">
+
+###### Figura 62
+_Container Diagram de Hostel Manager (Room)_
+
+<img src="images/room-container.png">
+
+###### Figura 63
+_Container Diagram de Hostel Manager (Room Service)_
+
+<img src="images/room-service-container.png">
+
+###### Figura 64
+_Container Diagram de Hostel Manager (Booking)_
+
+<img src="images/booking-container.png">
+
+###### Figura 65
+_Container Diagram de Hostel Manager (Report)_
+
+<img src="images/report-container.png">
+
+###### Figura 66
+_Container Diagram de Hostel Manager (Auth)_
+
+<img src="images/auth-container.png">
+
+###### Figura 67
+_Container Diagram de Hostel Manager (Subscription)_
+
+<img src="images/subs-container.png">
 
 ### 4.6.4. Software Architecture Components Diagrams
 
 En esta sección se presenta el Software Architecture Components Diagrams, diagrama que detalla los componentes internos del sistema a un nivel más bajo de granularidad que los Container Diagrams. Este diagrama tiene como objetivo representar cómo los componentes individuales dentro de cada contenedor interactúan entre sí y cómo se organizan para cumplir con las funcionalidades del sistema.
 
-<img src="images/components.png">
+###### Figura 68
+_Component Diagram de Hostel Manager (Guest)_
+
+<img src="images/guest-component.png">
+
+###### Figura 69
+_Component Diagram de Hostel Manager (Room)_
+
+<img src="images/room-component.png">
+
+###### Figura 70
+_Component Diagram de Hostel Manager (Room Service)_
+
+<img src="images/booking-component.png">
+
+###### Figura 72
+_Component Diagram de Hostel Manager (Booking)_
+
+<img src="images/room-service-component.png">
+
+###### Figura 73
+_Component Diagram de Hostel Manager (Report)_
+
+<img src="images/report-component.png">
+
+###### Figura 74
+_Component Diagram de Hostel Manager (Auth)_
+
+<img src="images/auth-component.png">
+
+###### Figura 75
+_Component Diagram de Hostel Manager (Subscription)_
+
+<img src="images/subs-component.png">
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
