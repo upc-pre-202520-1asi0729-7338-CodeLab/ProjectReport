@@ -24,8 +24,12 @@
 # Registro de Versiones del Informe
 | Versión | Fecha      | Autor | Descripción de modificación|
 |---------|------------|-------|----------------------------|
-| V0.1    | 01/09/2025 | Todos | Creación del repositorio   |
-| V1.0    | 21/09/2025 | Todos | Finalización de los capitulos I,II,III,IV y V|
+| V1.0    | 01/09/2025 | Adrian Quiroz | Creación del repositorio   |
+| V1.1    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo I|
+| V1.2    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo II|
+| V1.3    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo III|
+| V1.4    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo IV|
+| V1.5    | 21/09/2025 | Adrian Quiroz | Finalización del capitulo V|
 
 # Project Report Collaboration Insights
 
