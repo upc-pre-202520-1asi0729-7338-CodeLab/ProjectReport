@@ -293,61 +293,58 @@ La plataforma funcionará bajo un modelo de suscripción mensual accesible para 
 
 ### 1.2.2. Lean UX Process
 
-Con el objetivo de optimizar nuestro enfoque en el diseño centrado en el usuario, hemos adoptado las buenas prácticas descritas por Gothelf y Seiden (2021) para estructurar nuestro propio Lean UX Process dentro del proyecto. Según los autores, el Lean UX representa una evolución natural impulsada por la transformación continua en la forma en que se diseñan productos y servicios digitales. Este enfoque combina herramientas de diseño con metodologías ágiles de desarrollo de software, fomentando la colaboración continua entre todos los actores involucrados.
+Con el objetivo de desarrollar una solución digital centrada en las necesidades reales de los administradores hoteleros, se aplicó el proceso **Lean UX** propuesto por **Gothelf y Seiden (2021)**. Este enfoque promueve la validación continua de hipótesis, la colaboración entre equipos y la iteración rápida del producto, buscando reducir la incertidumbre y alinear la propuesta de valor con los objetivos de negocio.
 
-En el contexto hotelero y de hostales, donde la experiencia del huésped es el eje central de la propuesta de valor, Lean UX resulta particularmente valioso al permitir ciclos iterativos rápidos, validación temprana de hipótesis y una comunicación fluida entre diseñadores, desarrolladores, personal operativo y stakeholders. Esta filosofía no solo mejora la eficiencia en la toma de decisiones, sino que garantiza que las soluciones estén profundamente alineadas con las necesidades reales de los huéspedes y los objetivos estratégicos del negocio.
+En el caso de **Hostel Manager**, Lean UX permite conectar las oportunidades tecnológicas con las verdaderas dificultades del mercado hotelero, validando desde etapas tempranas si las funcionalidades propuestas generan el impacto esperado en los usuarios y el negocio.
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statement
 
-Domain:
+**Dominio:**  
+Los administradores de hostales y hoteles independientes carecen de herramientas tecnológicas centralizadas y asequibles para gestionar sus operaciones diarias —reservas, huéspedes, servicios adicionales y reportes— lo que ocasiona errores, duplicidad de información, pérdida de ingresos y baja satisfacción del cliente.
 
-- Los administradores de hostales y de hoteles independientes carecen de un sistema centralizado y de fácil acceso para gestionar las reservaciones, los huéspedes y los servicios adicionales. Como resultado, recurren a procesos manuales, lo que conduce a que la información se duplique, se cometan errores y se pierdan oportunidades de ingresos.
+**Contexto actual del mercado:**  
+Aunque existen plataformas de gestión hotelera en el mercado, la mayoría están orientadas a grandes cadenas, con altos costos de implementación y funcionalidades poco adaptadas a negocios pequeños o familiares. Esto genera una **brecha digital** que limita la competitividad del sector independiente.
 
-Customer Segments:
+**Oportunidad identificada:**  
+Existe una oportunidad clara para ofrecer una **plataforma integral, accesible y fácil de usar**, que digitalice la gestión hotelera, incremente la eficiencia operativa y permita a los administradores competir en igualdad de condiciones con las grandes cadenas.
 
-- Administradores y propietarios de hostales y de pequeños hoteles.
-- Empresas familiares que actualmente gestionan las reservas de forma manual.
+**Restricciones:**  
+- Presupuesto limitado de los hostales y hoteles pequeños.  
+- Bajo nivel de conocimiento tecnológico de los administradores.  
+- Dependencia de la conectividad a internet.  
+- Necesidad de una interfaz intuitiva que reduzca la curva de aprendizaje.
 
-Pain Points:
+**Propósito:**  
+Diseñar e implementar **Hostel Manager**, una aplicación web que optimice la gestión hotelera a través de procesos digitalizados, seguros y escalables, contribuyendo al crecimiento sostenible de los negocios del sector.
 
-- Los procesos manuales para las reservas, check-in/check-out y servicios adicionales pueden generar errores y pérdida de ingresos.
-- La falta de un sistema integrado y accesible para que las operaciones estén bien centralizadas.
-
-Gap:
-
-- Existen sistemas de gestión de hoteles en el mercado, pero la mayoría son costosos, complejos o están pensados para las grandes cadenas. Esto deja a los pequeños hostales y hoteles en una desventaja tecnológica y operacional.
-
-Vision/Strategy:
-
-- Hostel Manager busca ser la plataforma líder en gestión digital para hostales y hoteles en latinoamérica, reconocida por la innovación tecnológica, la integración con dispositivos inteligentes y el modelo de suscripción flexible. Aspirando a construir un ecosistema turístico más  competitivo, eficiente y sostenible, donde la tecnología impulse el crecimiento de los negocios.
-
-Initial Segment:
-
-- El segmento inicial lo conforman hostales y hoteles pequeños situados en zonas turísticas de Perú y Latinoamérica, con recursos económicos limitados, que necesitan una solución de gestión sencilla y flexible mediante una suscripción mensual.
+**Relación con el 5W + 2H:**  
+El Problem Statement se fundamenta directamente en los hallazgos obtenidos mediante el análisis de las siete preguntas (What, When, Where, Who, Why, How, How much), que permitieron delimitar el problema, identificar al usuario principal, su contexto de uso, las causas del problema y la viabilidad económica de la solución.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-- Los administradores de hostales necesitan herramientas tecnológicas fáciles de usar y de bajo costo.  
-- Los procesos manuales provocan una pérdida de tiempo, generan errores y generan una baja competitividad en comparación con las grandes cadenas. 
-- Una aplicación accesible que centralice sus operaciones puede resolver estas necesidades.
-- Los administradores podrán optimizar los ingresos, reducir los errores operativos y mejorar la satisfacción de los huéspedes. 
-- Los usuarios estarán dispuestos a pagar una suscripción mensual si les ayuda a aumentar la eficiencia y la rentabilidad.
+- Los administradores de hostales buscan herramientas digitales simples, accesibles y que no requieran conocimientos técnicos avanzados.  
+- Los procesos manuales actuales generan pérdida de tiempo, errores frecuentes y baja competitividad frente a grandes hoteles.  
+- Un sistema web centralizado podría reducir significativamente la carga operativa y mejorar la gestión de reservas y servicios.  
+- Los usuarios estarían dispuestos a pagar una suscripción mensual siempre que perciban beneficios tangibles en eficiencia y rentabilidad.  
+- La adopción de funciones como pagos digitales, reportes automáticos y soporte en línea aumentará la satisfacción y fidelización de los usuarios.  
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-- Creemos que los administradores optarán por utilizar Hostel Manager para centralizar y gestionar reservas y servicios adicionales, para reducir errores y ahorrar tiempo frente a los procesos manuales. Sabremos que estamos en lo cierto cuando al menos el 70% de los usuarios activos reportan una disminución en errores o duplicación de reservas en el primer trimestre.  
+**Hipótesis 1 – Gestión centralizada:**  
+Creemos que los administradores preferirán usar *Hostel Manager* para centralizar reservas y servicios adicionales, reduciendo errores y tiempo de gestión.  
+Sabremos que estamos en lo cierto cuando al menos el **70 % de los usuarios activos** reporten una disminución de errores o duplicación de reservas durante los tres primeros meses.
 
-- Creemos que al ofrecer un modelo de suscripción mensual de bajo costo, para pequeños hostales y hoteles sin acceso a soluciones tecnológicas por el alto costo ayudará a la expansión del negocio. Sabremos que estamos en lo cierto cuando al menos el 50% de los hostales prospectos se conviertan en clientes de pago dentro de los 3 primeros meses.  
+**Hipótesis 2 – Modelo de suscripción:**  
+Creemos que un modelo de suscripción mensual de bajo costo atraerá a pequeños hoteles y hostales que actualmente no pueden acceder a soluciones tecnológicas.  
+Sabremos que estamos en lo cierto cuando al menos el **50 % de los prospectos** se conviertan en clientes de pago en el primer trimestre.
 
-- Creemos que la simplificación de los procesos de check-in y check-out dará como resultado una reducción de tiempos de espera y errores administrativos, aumentando la productividad. Sabremos que estamos en lo cierto cuando los administradores reporten un ahorro promedio de 20 minutos al huésped.  
+**Hipótesis 3 – Automatización de procesos:**  
+Creemos que la automatización del check-in y check-out reducirá los tiempos de espera y los errores administrativos.  
+Sabremos que estamos en lo cierto cuando los administradores reporten un **ahorro promedio de 20 minutos por huésped**.
 
-- Creemos que la generación automática de reportes financieros y operativos dará como resultado una mejor toma de decisiones sin necesidad de conocimientos avanzados y gestión. Sabremos que estamos en lo cierto cuando al menos 60% de los administradores usan los reportes semanales y manifiestan mejoras en la gestión de su negocio.  
-
-- Creemos que la integración de un módulo de analítica predictiva dará como resultado una mejor planificación de recursos y estrategias de precios dinámicos. Sabremos que estamos en lo cierto cuando los hostales logren al menos un 5% de incremento en su tasa de ocupación en los primeros meses.  
-
-- Creemos que la implementación de un sistema de soporte y asistencia en tiempo real dará como resultado una rápida resolución de incidencias y una mayor confianza en el uso de la aplicación. Sabremos que estamos en lo correcto cuando al menos el 70% de los administradores califiquen positivamente la asistencia recibida y se reduzca en un 30% las quejas relacionadas con el uso de la plataforma.  
-
-- Creemos que la incorporación de pagos digitales (tarjetas, billeteras móviles, transferencia) dará como resultado una mayor comodidad para los huéspedes y un mejor control financiero para los administradores. Sabremos que estamos en lo cierto cuando el 50% de las transacciones se realicen a través de la plataforma en los primeros meses.
+**Hipótesis 4 – Valor de los reportes y analítica:**  
+Creemos que la generación automática de reportes y la analítica predictiva mejorarán la toma de decisiones de los administradores.  
+Sabremos que estamos en lo cierto cuando al menos el **60 % de los usuarios** utilicen reportes semanales y manifiesten mejoras en la gestión del negocio.
 
 #### 1.2.2.4. Lean UX Canvas
 
