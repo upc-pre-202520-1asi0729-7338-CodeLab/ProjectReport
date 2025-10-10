@@ -1103,7 +1103,7 @@ _Listado de epicas_
     <tr><td>EP03</td><td>Servicios y Experiencia</td><td>Como huésped quiero solicitar y pagar servicios adicionales en tiempo real para que mi estadía sea más cómoda y completa.</td></tr>
     <tr><td>EP04</td><td>Administración Financiera</td><td>Como administrador quiero registrar pagos, generar facturas y obtener reportes para mantener un control financiero confiable.</td></tr>
     <tr><td>EP05</td><td>Plataforma y Acceso Seguro</td><td>Como usuario quiero autenticarme y acceder desde cualquier dispositivo para que mis datos estén protegidos y pueda operar en todo momento.</td></tr>
-    <tr><td>EP06</td><td>Marketing y Captación</td><td>Como visitante o potencial cliente quiero conocer la propuesta de valor, planes y testimonios en una landing page para decidir registrarme o solicitar más información.</td></tr>
+    <tr><td>EP06</td><td>Marketing y Captación</td><td>Como visitante o potencial cliente quiero explorar una landing page informativa e interactiva para comprender el valor del producto, revisar planes y registrarme fácilmente si la propuesta satisface mis necesidades.</td></tr>
     <tr><td>EP07</td><td>API Pública e Integraciones</td><td>Como desarrollador externo quiero consumir una API RESTful de reservas, pagos y usuarios para integrar Hostel Manager con otros sistemas o aplicaciones.</td></tr>
   </tbody>
 </table>
@@ -1426,13 +1426,54 @@ _Listado de historias de usuario_
       </td>
       <td>EP07</td>
     </tr>
+	  <tr>
+      <td>US31</td>
+      <td>Visualizar características del producto</td>
+      <td>Como visitante quiero ver una sección con las principales características de la plataforma para entender sus beneficios.</td>
+      <td>
+        Escenario 1: Dado que la página carga correctamente, cuando el visitante navega a la sección “Características”, entonces el sistema muestra tarjetas con los beneficios principales. <br/>
+        Escenario 2: Dado que hay un error de conexión, cuando se intenta mostrar la sección, entonces el sistema muestra “No se pudieron cargar las características”.
+      </td>
+      <td>EP06</td>
+    </tr>
+	  <tr>
+      <td>US32</td>
+      <td>Call to Action (CTA) visible</td>
+      <td>Como visitante quiero ver un botón de acción visible para registrarme fácilmente.</td>
+      <td>
+        Escenario 1: Dado que la landing carga, cuando el visitante hace scroll, entonces el CTA permanece visible y fijo.<br/>
+        Escenario 2: Dado que el visitante hace clic en el CTA, cuando lo selecciona, entonces el sistema redirige al formulario de registro.
+      </td>
+      <td>EP06</td>
+    </tr>
+	  <tr>
+      <td>US33</td>
+      <td>Optimización para dispositivos móviles</td>
+      <td>Como visitante quiero que la landing page se vea correctamente en mi celular o tableta para tener una buena experiencia.</td>
+      <td>
+        Escenario 1: Dado que se accede desde un dispositivo móvil, cuando la página carga, entonces el sistema ajusta automáticamente el diseño (responsive).<br/>
+        Escenario 2: Dado que el navegador no es compatible, cuando carga la página, entonces el sistema muestra un mensaje de incompatibilidad.
+      </td>
+      <td>EP06</td>
+    </tr>
+	  <tr>
+		  <td>US34</td>
+      <td>Visualizar video demostrativo del producto</td>
+      <td>Como visitante de la landing page quiero ver un video corto que muestre cómo funciona la plataforma para entender fácilmente sus beneficios y decidir si es adecuada para mi negocio.</td>
+      <td>
+        Escenario 1: Dado que la página ha cargado correctamente, cuando el visitante navega a la sección “About the Product”, entonces el sistema muestra un reproductor integrado con controles de reproducción y el video comienza al hacer clic.<br/>
+        Escenario 2: Dado que el visitante tiene una conexión lenta, cuando el video no puede cargarse, entonces el sistema muestra una miniatura con el botón “Reintentar” o un enlace a YouTube.
+      </td>
+      <td>EP06</td>
+	</tr>
   </tbody>
 </table>
 
 ---
 
 ## 3.2. Impact Mapping
-
+###### Figura 18
+_Impact Mapping de Hostel Manager_
 > ![Impact Mapping](/images/ImpactMapping.png)
 
 El mapa de impacto identifica los **Business Goals**, los **Actors/Personas**, los **Impacts** esperados y los **Deliverables** junto con las **User Stories** que soportan cada entregable.
@@ -1440,7 +1481,8 @@ El mapa de impacto identifica los **Business Goals**, los **Actors/Personas**, l
 ---
 
 ## 3.3. Product Backlog
-
+###### Tabla 10
+_Product Backlog de Hostel Manager_
 <table>
   <thead>
     <tr>
@@ -1482,25 +1524,31 @@ El mapa de impacto identifica los **Business Goals**, los **Actors/Personas**, l
     <tr><td>28</td><td>US24</td><td>Acceso multicanal</td><td>Acceder desde web o móvil.</td><td>3</td></tr>
     <tr><td>29</td><td>US29</td><td>Endpoint de reservas</td><td>Crear reservas mediante un endpoint RESTful.</td><td>8</td></tr>
     <tr><td>30</td><td>US30</td><td>Endpoint de pagos</td><td>Registrar pagos mediante un endpoint RESTful.</td><td>8</td></tr>
+	<tr><td>31</td><td>US31</td><td>Visualizar características del producto</td><td>Ver las principales características y beneficios de la plataforma.</td><td>3</td></tr>
+    <tr><td>32</td><td>US32</td><td>Call to Action (CTA) visible</td><td>Mostrar un botón visible y fijo para registrarse fácilmente.</td><td>3</td></tr>
+    <tr><td>33</td><td>US33</td><td>Optimización para dispositivos móviles</td><td>Adaptar el diseño de la landing a celulares y tabletas (responsive).</td><td>5</td></tr>
+    <tr><td>34</td><td>US34</td><td>Visualizar video demostrativo del producto</td><td>Mostrar un video corto sobre el funcionamiento y beneficios de la plataforma.</td><td>5</td></tr>
   </tbody>
 </table>
 
 ---
 
-**Referencia del Backlog en Jira:**  
+**Referencia del Backlog en Jira:**
+###### Figura 19
+_Imagen de evidencia del uso de Jira Software en el desarrollo del Product Backlog de Hostel Manager #1_
 ![Product Backlog](/images/ProductBacklog_1.png)
+
+###### Figura 20
+_Imagen de evidencia del uso de Jira Software en el desarrollo del Product Backlog de Hostel Manager #2_
 ![Product Backlog](/images/ProductBacklog_2.png)
 [https://upc-team-tohi2bk.atlassian.net/jira/software/projects/HOSTEL/boards/1/backlog](https://upc-team-tohi2bk.atlassian.net/jira/software/projects/HOSTEL/boards/1/backlog)
 
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
-
 A continuación se plantean los estilos y herramientas que se están utilizando como guías para el desarrollo de la aplicación web.
 
-
 ### 4.1.1. General Style Guidelines
-
 1. **Misión**
    Desarrollar una plataforma integral y accesible que permita a los administradores de hostales y hoteles pequeños gestionar reservas, huéspedes y servicios adicionales de manera eficiente, mejorando la rentabilidad y experiencia de los huéspedes.
 
@@ -1511,24 +1559,29 @@ A continuación se plantean los estilos y herramientas que se están utilizando 
    El nombre del producto es **Hostel Manager**, una solución web diseñada para optimizar las operaciones de hostales y hoteles independientes. El logo de la marca está compuesto por una combinación de símbolos que representan la simplicidad y eficiencia, con un uso predominante del color **azul**, que transmite confianza y seguridad.
 
 4. **Logo**
-   
-   <img width="261" height="51" alt="Image" src="https://github.com/user-attachments/assets/edc18bba-60fc-4d95-ad42-4b4a8bb4140e" />
+	###### Figura 21
+	_Logo de Hostel Manager_
+
+	<img width="261" height="51" alt="Image" src="https://github.com/user-attachments/assets/edc18bba-60fc-4d95-ad42-4b4a8bb4140e" />
 
 5. **Colores** 
     Hemos elegido una paleta de colores que incluye verde claro, lila y azul, creando una combinación ligera y agradable a la vista para usuarios de diversas edades.
-
+   
+   ###### Figura 22
+   _Imagen de colores que se usarán para Hostel Manager_
     <img width="1019" height="610" alt="Image" src="https://github.com/user-attachments/assets/0cf71c5b-69e7-4de8-8dda-74bda1549cfe" />
 
 6. **Tipografía**
     Elegimos la fuente Open Sans porque es legible y popular en el diseño de aplicaciones web. Esto asegura que nuestros clientes, con toda clase de necesidades visuales, logren leer fácilmente el contenido de nuestra web.
 
+	###### Figura 23
+	_Imagen de tipografía que se usará para Hostel Manager_
     <img width="1047" height="273" alt="Image" src="https://github.com/user-attachments/assets/08e3e3fb-f35c-4244-9a2c-7f0f2edf3b7d" />
 
 7. **Espaciado**
    Para nuestra aplicación, usaremos un espaciado de 1.5, que es un poco más amplio que el habitual. Esto evitará que el texto se sienta pesado o genere complicaciones de legibilidad. Tamaño de letra: 42px - 20px Interlineado: 1.5px Tono de comunicación y lenguaje aplicado Usaremos un tono de comunicación entusiasta y amigable en toda la web, ya que consideramos que es adecuado para nuestro tipo de aplicación al buscar incentivar el uso frecuente de esta. Además, haremos uso de un lenguaje popular para ser inclusivos con todo tipo de niveles lingüísticos entre nuestros usuarios.
 
 ### 4.1.2. Web Style Guidelines
-
 La aplicación web se adaptará a todo tipos de dispositivos tecnológicos usados por nuestros segmentos objetivos, garantizando que la usabilidad se mantenga en todo momento. Esto ofrecerá una experiencia de usuario satisfactoria y coherente, independientemente del dispositivo que use el usuario en ese momento.
 
 Se utilizará un patrón Z para el diseño de nuestro landing page, dado que queremos que el usuario mire primero nuestro logo para luego proceder con las opciones del navegador, donde luego vea el contenido de cada sección y termine con el texto que contiene cada una de las secciones.
@@ -1594,6 +1647,8 @@ Para las etiquetas en nuestra landing page, hemos elegido un lenguaje sencillo q
 
 En la Landing Page se visualizarán los siguientes botones de navegación:
 
+###### Tabla 11
+_Labeling Systems para Hostel Manager_
 | Etiqueta       | Descripción                                                                 |
 |----------------|----------------------------------------------------------------------------|
 | Inicio         | Apartado donde se muestra la información de la aplicación explicando sus características. |
@@ -1636,14 +1691,14 @@ Nos aseguraremos de utilizar etiquetas intuitivas y fáciles de recordar para re
 - Filtros disponibles:
  - Habitaciones → tipo, disponibilidad, capacidad.
  - Reservas → fecha, huésped, estado de pago.
- - Room Service → tipo de servicio, estado, fecha.
+ - Room Service → tipo de servicio, estado, precio.
 
 
 ### 4.2.5. Navigation Systems
 
-- Menú superior fijo con secciones: “Reservas”, “Habitaciones”, “Room Service”, “Reportes”, “Promociones”.
+- Menú fijo con secciones: “Reservas”, “Habitaciones”, “Room Services”, “Reportes”, “Huéspedes”.
 - Botones CTA en secciones clave (reservar, pagar, generar reporte).
-- Navegación adaptada a Mobile: menú hamburguesa y accesos rápidos.
+- Navegación adaptada a Mobile.
 
 
 ## 4.3. Landing Page UI Design
@@ -1652,17 +1707,24 @@ Nos aseguraremos de utilizar etiquetas intuitivas y fáciles de recordar para re
 
 La wireframe de la landing page de HostelManager presenta una estructura clara y orientada a la conversión, con las siguientes secciones:
 
+###### Figura 24
+_Wireframe de la Landing Page de Hostel Manager(Mobile)_
 <img src="images/LandingPage Wireframes.png" style="width: 400px; height: auto;">
 
+###### Figura 25
+_Wireframe de la Landing Page de Hostel Manager(Desktop)_
 <img src="images/DesktopLandingPage Wireframes.png" style="width: 400px; height: auto;">
 
 ### 4.3.2. Landing Page Mock-up
-
 El mock-up de alta fidelidad incorpora todos los elementos de la wireframe con el diseño visual completo:
 
-<img src="images/Desktop-Landing-Page-Mock-up.png" style="width: 400px; height: auto;">
-
+###### Figura 26
+_Mock-up de la Landing Page de Hostel Manager(Mobile)_
 <img src="images/Landing-Page-Mock-up.png" style="width: 400px; height: auto;">
+
+###### Figura 27
+_Mock-up de la Landing Page de Hostel Manager(Desktop)_
+<img src="images/Desktop-Landing-Page-Mock-up.png" style="width: 400px; height: auto;">
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1679,9 +1741,6 @@ El mock-up de alta fidelidad incorpora todos los elementos de la wireframe con e
 Figma: https://www.figma.com/design/YmmcLGjrEreHZClnFjWuHQ/Hostel-Manager---Landing-Page?node-id=8-3123&t=5Mu3ryN8G2CZrJv9-1
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-
-
-
 En esta sección se presentan los Wireflow Diagrams desarrollados para una aplicación web, los cuales combinan wireframes de baja fidelidad con la representación visual de los flujos de usuario asociados a funciones clave de la plataforma.
 
 Estos wireflows permiten visualizar tanto la estructura básica de las pantallas como la navegación entre vistas, mostrando cómo los usuarios interactúan con el sistema a través de distintas funcionalidades.
